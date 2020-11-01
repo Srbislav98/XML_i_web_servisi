@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zahtev>
+    <header>
+        <naziv_i_sediste></naziv_i_sediste>
+        naziv i sedište organa kome se zahtev upućuje
+    </header>
+    
+    <naslov align="center" bold="true">
+        Z A H T E V
+        za pristup informaciji od javnog značaja
+    </naslov>
+    
+    
+    
+    <telo>
+        <paragraf broj="1">
+            Na osnovu člana 15. st. 1. Zakona o slobodnom pristupu informacijama od javnog značaja („Službeni glasnik RS“, br. 120/04, 54/07, 104/09 i 36/10), od gore navedenog organa zahtevam:*
+            <paragraf>
+                obaveštenje da li poseduje traženu informaciju;
+                ⁫uvid u dokument koji sadrži traženu informaciju;
+                ⁫kopiju dokumenta koji sadrži traženu informaciju;
+                ⁫dostavljanje kopije dokumenta koji sadrži traženu informaciju:**
+                <paragraf>
+                    poštom
+                    ⁫elektronskom poštom
+                    ⁫faksom
+                    ⁫na drugi način:***
+                    <nacin></nacin>
+                </paragraf>
+                
+                Ovaj zahtev se odnosi na sledeće informacije:
+                <informacije></informacije>
+                <malim_slovima>
+                    (navesti što precizniji opis informacije koja se traži kao i druge podatke koji olakšavaju pronalaženje tražene informacije)
+                </malim_slovima>
+            </paragraf>
+        </paragraf>
+        
+        <levo>
+            <paragraf broj="2">
+                U
+                <gde></gde>
+                .
+            </paragraf>
+            <paragraf>
+                dana
+                <dana></dana>
+                201
+                <godine></godine>
+                godine
+            </paragraf>
+        </levo>
+        
+        <desno align="right">
+            <paragraf broj="3">
+                <informacije></informacije>
+                <malim_slovima>
+                    Tražilac informacije/Ime i prezime
+                </malim_slovima>
+            </paragraf>
+            <paragraf broj="4">
+                <adresa></adresa>
+                <malim_slovima>
+                    adresa
+                </malim_slovima>
+            </paragraf>
+            <paragraf broj="5">
+                <kontakt></kontakt>
+                <malim_slovima>
+                    drugi podaci za kontakt
+                </malim_slovima>
+            </paragraf>
+            <paragraf broj="6">
+                <potpis></potpis>
+                <malim_slovima>
+                    Potpis
+                </malim_slovima>
+            </paragraf>
+        </desno>
+    </telo>
+    
+    <fusnote>
+        <fusnota br_zvezda="1">
+            U kućici označiti koja zakonska prava na pristup informacijama želite da ostvarite.
+        </fusnota>
+        <fusnota br_zvezda="2">
+            U kućici označiti način dostavljanja kopije dokumenata.
+        </fusnota>
+        <fusnota br_zvezda="3">
+            Kada zahtevate drugi način dostavljanja obavezno upisati koji način dostavljanja zahtevate.
+        </fusnota>
+    </fusnote>
+</zahtev>
