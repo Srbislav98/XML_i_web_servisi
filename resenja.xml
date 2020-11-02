@@ -3,345 +3,348 @@
     <opis_dokumenta>
         Primeri postupanja Poverenika po žalbi
     </opis_dokumenta>
-    <zalba broj="1">
-        Rešenje kada je žalba osnovana – nalaže se:
-        <levo>
-            <broj_zalbe>071-01-1114/2020-03</broj_zalbe>
-        </levo>
-        <desno>
-            <datum_zalbe>09.06.2020.</datum_zalbe>
-        </desno>
-        <opis_zalbe>
-            Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po albi
-            koju je izjavio AA, zbog nepostupanja Učiteljskog fakulteta u Prizrenu sa privremenim sedištem
-            u Leposaviću, ul. Nemanjina bb, po njegovom zahtevu od 16.04.2020. godine za pristup
-            informacijama od javnog značaja, na osnovu člana 35. stav 1. tačka 5. Zakona o slobodnom pristupu
-            informacijama od javnog značaja („Sl. glasnik RS“, br. 120/04, 54/07, 104/09 i 36/10), a u vezi sa
-            članom 4. tačka 22. Zakona o zaštiti podataka o ličnosti („Sl. glasnik RS“, broj 87/18), kao i člana
-            23. i člana 24. stav 4. Zakona o slobodnom pristupu informacijama od javnog značaja i člana 173.
-            stav 2. Zakona o opštem upravnom postupku („Sl. glasnik RS“, br. 18/2016 i 95/2018-autentično
-            tumačenje), donosi 
-        </opis_zalbe>
-        <naslov>
-            R E Š E Nj E 
-        </naslov>
-        <resenja_zalbe>
-            <resenje_zalbe broj="1">
-                Nalaže se Učiteljskom fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, da
-                bez odlaganja, a najkasnije u roku od pet dana od dana prijema ovog rešenja, obavesti AA, da li
-                poseduje tražene informacije odnosno dokument u kome su iste sadržane, i to: Ugovor o radu koji
-                je kao poslednji potpisan između tog Fakulteta i BB, te da mu, ukoliko takav dokument poseduje
-                dostavi kopiju istog elektronskom poštom na adresu … ili poštom, s tim što će pre dostavljanja
-                zaštititi i učiniti nedostupnim podatke o ličnosti kojima bi se povredilo pravo na privatnost
-                lica na koje se informacije odnose, kao što su: adresa stanovanja, lični matični broj građana, ime
-                oca, radni staž, prosečna ocena studiranja i sl. ukoliko su takvi podaci sadržani u traženom
-                dokumentu. 
+    <zalbe>
+        <zalba broj="1">
+            Rešenje kada je žalba osnovana – nalaže se:
+            <levo>
+                <broj_zalbe>071-01-1114/2020-03</broj_zalbe>
+            </levo>
+            <desno>
+                <datum_zalbe>09.06.2020.</datum_zalbe>
+            </desno>
+            <opis_zalbe>
+                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po albi
+                koju je izjavio AA, zbog nepostupanja Učiteljskog fakulteta u Prizrenu sa privremenim sedištem
+                u Leposaviću, ul. Nemanjina bb, po njegovom zahtevu od 16.04.2020. godine za pristup
+                informacijama od javnog značaja, na osnovu člana 35. stav 1. tačka 5. Zakona o slobodnom pristupu
+                informacijama od javnog značaja („Sl. glasnik RS“, br. 120/04, 54/07, 104/09 i 36/10), a u vezi sa
+                članom 4. tačka 22. Zakona o zaštiti podataka o ličnosti („Sl. glasnik RS“, broj 87/18), kao i člana
+                23. i člana 24. stav 4. Zakona o slobodnom pristupu informacijama od javnog značaja i člana 173.
+                stav 2. Zakona o opštem upravnom postupku („Sl. glasnik RS“, br. 18/2016 i 95/2018-autentično
+                tumačenje), donosi 
+            </opis_zalbe>
+            <naslov>
+                R E Š E Nj E 
+            </naslov>
+            <resenja_zalbe>
+                <resenje_zalbe broj="1">
+                    Nalaže se Učiteljskom fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, da
+                    bez odlaganja, a najkasnije u roku od pet dana od dana prijema ovog rešenja, obavesti AA, da li
+                    poseduje tražene informacije odnosno dokument u kome su iste sadržane, i to: Ugovor o radu koji
+                    je kao poslednji potpisan između tog Fakulteta i BB, te da mu, ukoliko takav dokument poseduje
+                    dostavi kopiju istog elektronskom poštom na adresu … ili poštom, s tim što će pre dostavljanja
+                    zaštititi i učiniti nedostupnim podatke o ličnosti kojima bi se povredilo pravo na privatnost
+                    lica na koje se informacije odnose, kao što su: adresa stanovanja, lični matični broj građana, ime
+                    oca, radni staž, prosečna ocena studiranja i sl. ukoliko su takvi podaci sadržani u traženom
+                    dokumentu. 
+                </resenje_zalbe>
+                <resenje_zalbe broj="2">
+                    O izvršenju rešenja Učiteljski fakultet u Prizrenu sa privremenim sedištem u
+                    Leposaviću, će obavestiti Poverenika u roku od sedam dana od prijema ovog rešenja.
+                </resenje_zalbe>
+            </resenja_zalbe>
+            <podnaslov>O b r a z l o ž e nj e</podnaslov>
+            <obrazlozenja_zalbe>
+                <paragraf broj="1">
+                    AA, kao tražilac informacija, izjavio je dana 07.05.2020. godine žalbu Povereniku, zbog
+                    nepostupanja Učiteljskog fakulteta u Prizrenu sa privremenim sedištem u Leposaviću po
+                    njegovom zahtevu od 16.04.2020. godine za pristup informacijama od javnog značaja i u prilogu
+                    dostavio kopiju istog.
+                </paragraf>
+                <paragraf broj="2">
+                    Postupajući po žalbi, Poverenik je dana 11.05.2020. godine uputio istu na izjašnjenje
+                    Učiteljskom fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, kao organu vlasti u
+                    smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja i zatražio da se
+                    izjasni o navodima žalbe, posebno o razlozima nepostupanja u zakonskom roku po podnetom zahtevu
+                    u skladu sa odredbama člana 16. st.1-9. ili st. 10. Zakona, ostavljajući rok od osam dana, povodom
+                    čega nije dobio odgovor.
+                    
+                </paragraf>
+                <paragraf broj="3">
+                    Po razmatranju žalbe i ostalih spisa ovog predmeta, doneta je odluka kao u dispozitivu
+                    rešenja iz sledećih razloga:
+                </paragraf>
+                <paragraf broj="4">
+                    Uvidom u spise predmeta utvrđeno je da je AA, dana 16.04.2020. godine, podneo Učiteljskom
+                    fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, zahtev za pristup informacijama
+                    od javnog značaja, elektronskom poštom, kojim je tražio informacije od javnog značaja, bliže
+                    navedene u stavu I dispozitiva ovog rešenja.
+                </paragraf>
+                <paragraf broj="5">
+                    Takođe je uvidom u spise predmeta utvrđeno da po zahtevu žalioca od 16.04.2020. godine,
+                    organ vlasti nije postupio, što je bio dužan da učini bez odlaganja, a najkasnije u roku od 15 dana
+                    od prijema zahteva te da žalioca, u smislu člana 16. stav 1. Zakona o slobodnom pristupu 
+                    informacijama od javnog značaja, obavesti da li poseduje tražene informacije i da mu, ukoliko
+                    iste poseduje, stavi na uvid dokument koji iste sadrži odnosno izda mu ili dostavi kopiju
+                    dokumenta u kome su tražene informacije sadržane, ili da u suprotnom donese rešenje o odbijanju
+                    zahteva, u smislu stava 10. istog člana.
+                </paragraf>
+                <fusnota>
+                    Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
+                    Informator o radu 31.08.2020.godine
+                </fusnota>
+                <paragraf broj="6">
+                    Imajući u vidu da organ vlasti po zahtevu žalioca od 16.04.2020. godine nije postupio u
+                    skladu sa navedenim odredbama Zakona o slobodnom pristupu informacijama od javnog značaja, a
+                    da nije opravdao razloge nepostupanja po podnetom zahtevu, Poverenik je u postupku po žalbi, na
+                    osnovu člana 23. i člana 24. st. 1. i 4. Zakona o slobodnom pristupu informacijama od javnog
+                    značaja i člana 173. st. 2. Zakona o opštem upravnom postupku, odlučio kao u stavu I dispozitiva
+                    ovog rešenja, našavši da je žalba osnovana, odnosno da je nesporno pravo žalioca na tražene
+                    informacije u smislu člana 5. Zakona o slobodnom pristupu informacijama od javnog značaja, po
+                    kome svako ima pravo da mu bude saopšteno da li organ vlasti poseduje ili mu je dostupna određena
+                    informacija od javnog značaja, kao i da mu se informacija, ukoliko je u posedu organa, učini
+                    dostupnom, na način kako je to naloženo u stavu I dispozitiva ovog rešenja, što je u skladu sa
+                    odredbom člana 12. Zakona o slobodnom pristupu informacijama od javnog značaja, koja predviđa
+                    mogućnost izdvajanja tražene informacije od javnog značaja od ostalih informacija sadržanih u
+                    dokumentu u koje organ vlasti nije dužan da tražiocu omogući uvid, jer bi se dostupnošću tim
+                    informacijama povredilo pravo na privatnost i zaštitu podataka o ličnosti lica na koja se
+                    tražene informacije odnose..
+                </paragraf>
+                <paragraf broj="7">
+                    Učiteljski fakultet u Prizrenu sa privremenim sedištem u Leposaviću, je dužan da o
+                    izvršenju rešenja iz stava I dispozitiva, obavesti Poverenika u skladu sa članom 24. stav 3. Zakona
+                    o slobodnom pristupu informacijama od javnog značaja. 
+                </paragraf>
+                <paragraf broj="8">
+                    Uputstvo o pravnom sredstvu:
+                </paragraf>
+                <paragraf broj="9">
+                    Protiv ovog rešenja nije dopuštena žalba već se, u skladu sa Zakonom o upravnim
+                    sporovima, može pokrenuti upravni spor tužbom Upravnom sudu u Beogradu, u roku od 30 dana od
+                    dana prijema rešenja. Taksa na tužbu iznosi 390,00 dinara.
+                </paragraf>
+            </obrazlozenja_zalbe>
+            <desno_prve_zalbe>
+                POVERENIK
+                <ime_poverenika>
+                    Milan Marinović 
+                </ime_poverenika>
+            </desno_prve_zalbe>
+        </zalba>
+        <zalba broj="2">
+            Rešenje – odbija se kao neosnovana:
+            <levo>
+                <broj_zalbe>071-01-1061/2020-03</broj_zalbe>
+            </levo>
+            <desno>
+                <datum_zalbe>29.06.2020.</datum_zalbe>
+            </desno>
+            <opis_zalbe>
+                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po
+                žalbi koju je izjavio AA, protiv obaveštenja Ministarstva za rad, zapošljavanje, boračka i
+                socijalna pitanja Republike Srbije u Beogradu broj: 07-00-00019/2020-01 od 01.04.2020. godine,
+                zbog nedobijanja traženih informacija po njegovom zahtevu za pristup informacijama od javnog
+                značaja podnetom 12.03.2020. godine, na osnovu člana 35. stav 1. tačka 5. Zakona o slobodnom
+                pristupu informacijama od javnog značaja („Službeni glasnik RS” br. 120/04, 54/07, 104/09 i
+                36/10), a u vezi sa članom 4. tačka 22. Zakona o zaštiti podataka o ličnosti („Službeni glasnik
+                RS” br. 87/18), kao i člana 23. i člana 24. stav 1. Zakona o slobodnom pristupu informacijama od
+                javnog značaja i člana 170. stav 1. tačka 1. Zakona o opštem upravnom postupku („Službeni glasnik
+                RS”, br. 18/16 i 95/18), donosi
+            </opis_zalbe>
+            <naslov>R E Š E Nj E</naslov>
+            <resenje_zalbe>
+                Odbija se, kao neosnovana, žalba AA, izjavljena protiv obaveštenja Ministarstva za rad,
+                zapošljavanje, boračka i socijalna pitanja Republike Srbije u Beogradu broj: 07-00-00019/2020-01
+                od 01.04.2020. godine, zbog nedobijanja traženih informacija po njegovom zahtevu za pristup
+                informacijama od javnog značaja podnetom 12.03.2020. godine.
             </resenje_zalbe>
-            <resenje_zalbe broj="2">
-                O izvršenju rešenja Učiteljski fakultet u Prizrenu sa privremenim sedištem u
-                Leposaviću, će obavestiti Poverenika u roku od sedam dana od prijema ovog rešenja.
+            <fusnota>
+                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
+                Informator o radu 31.08.2020.godine
+            </fusnota>
+            <podnaslov>O b r a z l o ž e nj e</podnaslov>
+            <obrazlozenja_zalbe>
+                <paragraf broj="1">
+                    AA, kao tražilac informacija, izjavio je dana 14.04.2020. godine žalbu Povereniku protiv
+                    obaveštenja Ministarstva za rad, zapošljavanje, boračka i socijalna pitanja Republike Srbije u
+                    Beogradu broj: 07-00-00019/2020-01 od 01.04.2020. godine, zbog nedobijanja traženih informacija
+                    po njegovom zahtevu za pristup informacijama od javnog značaja podnetom 12.03.2020. godine. U
+                    žalbi je naveo da mu predmetnim obaveštenjem organ vlasti nije dostavio tražene informacije,
+                    pa predlaže da Poverenik uvaži njegovu žalbu i naloži da mu se dostave tražene informacije. U
+                    prilogu je dostavio kopije zahteva i ožalbenog obaveštenja.
+                </paragraf>
+                <paragraf broj="2">
+                    Postupajući po žalbi Poverenik je dana 22.04.2020. godine istu uputio na izjašnjenje
+                    Ministarstvu za rad, zapošljavanje, boračka i socijalna pitanja Republike Srbije u Beogradu, kao
+                    organu vlasti u smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja.                
+                </paragraf>
+                <paragraf broj="3">
+                    U odgovoru na žalbu od 18.05.2020. godine, organ vlasti je ostao pri navodima iz ožalbenog
+                    obaveštenja, ističući da je žaliocu dostavio informacije kojima je raspolagao u trenutku
+                    podnošenja zahteva za pristup informacijama od javnog značaja.
+                </paragraf>
+                <paragraf broj="4">
+                    Po razmatranju žalbe i ostalih spisa ovog predmeta, doneta je odluka kao u dispozitivu
+                    rešenja iz sledećih razloga:
+                </paragraf>
+                <paragraf broj="5">
+                    Uvidom u spise predmeta utvrđeno je da je AA, podneo Ministarstvu za rad, zapošljavanje,
+                    boračka i socijalna pitanja Republike Srbije u Beogradu, zahtev od 12.03.2020. godine za pristup
+                    informacijama od javnog značaja, kojim je u vezi sa stradanjem radnika, koji je marta 2020. godine
+                    poginuo prilikom izvođenja radova na prostoru Beogradskog zoo vrta, tražio dostavljanje
+                    određenih informacija, i to: ime i prezime odnosno inicijale poginulog radnika, naziv pravnog
+                    subjekta za koga je navedeni radnik radio, da li je radnik bio prijavljen, da li je izvršen
+                    inspekcijski nadzor, kao i kopije dokumenata o izvršenom inspekcijskom nadzoru.
+                </paragraf>
+                <paragraf broj="6">
+                    Dalje je, uvidom u spise predmeta utvrđeno da je odgovorom broj: 07-00-00019/2020-01 od
+                    01.04.2020. godine, organ vlasti obavestio žalioca da je do smrtne povrede na radu zaposlenog BB
+                    koja se dogodila, dana 05.03.2020. godine oko 20,30 časova, u krugu Zoološkog vrta u Beogradu, Mali
+                    Kalemegdan br. 8, došlo nakon obrušavanja oplate potpornog zida, dužine oko 5 metara i visine
+                    3 metra, kao i da je MUP, Policijska uprava Stari Grad, dana 05.03.2020. godine oko 21,30 časova
+                    prijavilo inspekciji rada navedenu smrtnu povredu na radu, a da je inspektor rada Odeljenja
+                    inspekcije rada u Gradu Beogradu izašao na lice mesta, dana 06.03.2020. godine u 7,30 časova, da je
+                    nadzor povodom navedene smrtne povrede na radu u toku i da će nakon utvrđivanja svih relevantnih
+                    činjenica vezanih za dešavanje smrtne povrede na radu, inspektor rada preduzeti mere iz domena
+                    svoje nadležnosti, te da, kako je postupak inspekcijskog nadzora u toku, to se dostavljaju navedene
+                    informacije sa kojima organ raspolaže u tom trenutku. 
+                </paragraf>
+                <paragraf broj="7">
+                    Članom 16. stav 1. Zakona o slobodnom pristupu informacijama od javnog značaja propisano
+                    je da je organ vlasti dužan da bez odlaganja, a najkasnije u roku od 15 dana od dana prijema zahteva,
+                    tražioca obavesti o posedovanju informacije, stavi mu na uvid dokument koji sadrži traženu
+                    informaciju, odnosno izda mu ili uputi kopiju tog dokumenta.
+                </paragraf>
+                <paragraf broj="8">
+                    Imajući u vidu da je organ vlasti, pre izjavljene žalbe, postupio po zahtevu žalioca, tako
+                    što ga je odgovorom broj: 07-00-00019/2020-01 od 01.04.2020. godine, obavestio o inicijalima
+                    poginulog radnika, kao i da je inspektor rada Odeljenja inspekcije rada u Gradu Beogradu, dana
+                    06.03.2020. godine u 7,30 časova, izašao na lice mesta, nakon prijave Policijske uprave Stari
+                    Grad, te da je inspekcijski nadzor povodom navedene smrtne povrede na radu u toku odnosno da mu
+                    dostavlja informacije kojima u vremenu postupanja po predmetnom zahtevu, raspolaže, što je
+                    ponovio i u odgovoru na žalbu, Poverenik nalazi da je organ vlasti postupio po podnetom zahtevu
+                    žalioca u skladu sa citiranom odredbom člana 16. stav 1. Zakona o slobodnom pristupu
+                    informacijama od javnog značaja, te da je žalba neosnovana.
+                </paragraf>
+                <fusnota>
+                    Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
+                    Informator o radu 31.08.2020.godine
+                </fusnota>
+            </obrazlozenja_zalbe>
+        </zalba>
+        <zalba broj="3">
+            Rešenje – odbija se zahtev:
+            <levo>
+                <broj_zalbe> 071-01-4075/2018-03</broj_zalbe>
+            </levo>
+            <desno>
+                <datum_zalbe>11.06.2020.</datum_zalbe>
+            </desno>
+            <opis_zalbe>
+                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po
+                žalbi AA izjavljenoj zbog nepostupanja Javnog komunalnog preduzeća „Beogradski vodovod i
+                kanalizacija“ u Beogradu, po njegovom zahtevu za pristup informacijama od javnog značaja od
+                05.11.2018. godine, na osnovu člana 35. stav 1. tačka 5 Zakona o slobodnom pristupu informacijama
+                od javnog značaja („Sl. glasnik RS“ br. 120/04, 54/07, 104/09 i 36/10), a u vezi sa članom 4. tačka 22.
+                Zakona o zaštiti podataka o ličnosti („Sl. glasnik RS“, broj 87/2018), kao i člana 23. i člana 24.
+                st. 1. Zakona o slobodnom pristupu informacijama od javnog značaja i člana 173. stav. 2. Zakona o
+                opštem upravnom postupku („Službeni glasnik RS“, br. 18/2016 i 95/2018 –autentično tumačenje),
+                donosi
+            </opis_zalbe>
+            <naslov>R E Š E Nj E</naslov>
+            <resenje_zalbe>
+                Odbija se, kao neosnovan, zahtev AA, za pristup informacijama od javnog značaja, podnet
+                05.11.2018. godine Javnom komunalnom preduzeću „Beogradski vodovod i kanalizacija“ u Beogradu.
             </resenje_zalbe>
-        </resenja_zalbe>
-        <podnaslov>O b r a z l o ž e nj e</podnaslov>
-        <obrazlozenja_zalbe>
-            <paragraf broj="1">
-                AA, kao tražilac informacija, izjavio je dana 07.05.2020. godine žalbu Povereniku, zbog
-                nepostupanja Učiteljskog fakulteta u Prizrenu sa privremenim sedištem u Leposaviću po
-                njegovom zahtevu od 16.04.2020. godine za pristup informacijama od javnog značaja i u prilogu
-                dostavio kopiju istog.
-            </paragraf>
-            <paragraf broj="2">
-                Postupajući po žalbi, Poverenik je dana 11.05.2020. godine uputio istu na izjašnjenje
-                Učiteljskom fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, kao organu vlasti u
-                smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja i zatražio da se
-                izjasni o navodima žalbe, posebno o razlozima nepostupanja u zakonskom roku po podnetom zahtevu
-                u skladu sa odredbama člana 16. st.1-9. ili st. 10. Zakona, ostavljajući rok od osam dana, povodom
-                čega nije dobio odgovor.
-                
-            </paragraf>
-            <paragraf broj="3">
-                Po razmatranju žalbe i ostalih spisa ovog predmeta, doneta je odluka kao u dispozitivu
-                rešenja iz sledećih razloga:
-            </paragraf>
-            <paragraf broj="4">
-                Uvidom u spise predmeta utvrđeno je da je AA, dana 16.04.2020. godine, podneo Učiteljskom
-                fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, zahtev za pristup informacijama
-                od javnog značaja, elektronskom poštom, kojim je tražio informacije od javnog značaja, bliže
-                navedene u stavu I dispozitiva ovog rešenja.
-            </paragraf>
-            <paragraf broj="5">
-                Takođe je uvidom u spise predmeta utvrđeno da po zahtevu žalioca od 16.04.2020. godine,
-                organ vlasti nije postupio, što je bio dužan da učini bez odlaganja, a najkasnije u roku od 15 dana
-                od prijema zahteva te da žalioca, u smislu člana 16. stav 1. Zakona o slobodnom pristupu 
-                informacijama od javnog značaja, obavesti da li poseduje tražene informacije i da mu, ukoliko
-                iste poseduje, stavi na uvid dokument koji iste sadrži odnosno izda mu ili dostavi kopiju
-                dokumenta u kome su tražene informacije sadržane, ili da u suprotnom donese rešenje o odbijanju
-                zahteva, u smislu stava 10. istog člana.
-            </paragraf>
+            <podnaslov>O b r a z l o ž e nj e</podnaslov>
+            <obrazlozenja_zalbe>
+                <paragraf broj="1">
+                    AA, izjavio je 26.11.2018. godine žalbu Povereniku, zbog nepostupanja Javnog komunalnog
+                    preduzeća „Beogradski vodovod i kanalizacija“ u Beogradu, po njegovom zahtevu za pristup
+                    informacijama od javnog značaja od 05.11.2018. godine. Uz žalbu je priložena kopija podnetog
+                    zahteva sa dokazom o predaji organu vlasti. 
+                </paragraf>
+                <paragraf broj="2">
+                    Postupajući po podnetoj žalbi Poverenik je dana 28.11.2018. godine dostavio žalbu na
+                    izjašnjenje Javnom komunalnom preduzeću „Beogradski vodovod i kanalizacija“ u Beogradu, kao
+                    organu vlasti u smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja i
+                    zatražio da se izjasni o navodima žalbe, posebno o razlozima nepostupanja u zakonskom roku u
+                    skladu sa odredbama člana 16. st. 1-9. ili st. 10. Zakona, ostavljajući za to rok od osam dana, povodom
+                    čega nije dobio odgovor.               
+                </paragraf>
+                <paragraf broj="3">
+                    Po razmatranju žalbe i ostalih spisa ovog predmeta, doneta je odluka kao u dispozitivu
+                    rešenja iz sledećih razloga:
+                </paragraf>
+                <paragraf broj="4">
+                    Uvidom u spise predmeta utvrđeno je da je žalilac dana 05.11.2018. godine podneo zahtev za
+                    pristup informacijama od javnog značaja Javnom komunalnom preduzeću „Beogradski vodovod i
+                    kanalizacija“ u Beogradu, kojim je u vezi sa ranije dobijenim obaveštenjem tog Preduzeća od
+                    29.10.2018. godine da u arhivama Službe tehničke dokumentacije i Sektora kanalizacione mreže
+                    nema zahteva za projektovanje ili podataka za poslovni objekat u ulici Ustanička br. 61, tražio
+                    odgovore na pitanja: da li to znači da za objekat „Donatelo“, ne postoji propisan kanalizacioni
+                    spoj; da li to znači da Uprava gradske opštine Voždovac, na čijoj teritoriji se nalazi pomenuti
+                    poslovni objekat, treba samostalno da utvrdi da je to pravno lice samovlasno priključilo
+                    unutrašnje instalacije svog objekta na gradsku kanalizaciju i donese nalog o isključenju objekta
+                    sa gradske kanalizacije, bez podnošenja prijave tom nadležnom organu od strane Javnog komunalnog
+                    preduzeća, te da li takvu prijavu treba da podnese treće lice, odnosno podnosilac zahteva; da li
+                    priključenjem na glavnu kanalizacionu mrežu, kanalizacione cevi unutrašnje instalacije
+                    prestaju biti samostalna stvar i postaju sastavni deo mreže, kao osnovno sredstva Javnog
+                    komunalnog preduzeća, kao i da li bi unutrašnja instalacija uzvodno od prvog revizionog silaza
+                    postala osnovno sredstvo Javnog komunalnog preduzeća ili bi vlasnik ostao u posedu iste. 
+                </paragraf>
+                <fusnota>
+                    Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
+                    Informator o radu 31.08.2020.godine
+                </fusnota>
+                <paragraf broj="5">
+                    Takođe je uvidom u spise predmeta utvrđeno da po podnetom zahtevu žalioca organ vlasti
+                    nije postupio, što je bio dužan da učini bez odlaganja, a najkasnije u roku od 15 dana od dana
+                    prijema zahteva te da ga, u smislu člana 16. stav 1. Zakona o slobodnom pristupu informacijama od
+                    javnog značaja, obavesti da li poseduje tražene informacije i da mu, ukoliko iste poseduje, dostavi
+                    kopije dokumenata u kojima su one sadržane ili da, u suprotnom, donese rešenje o odbijanju zahteva,
+                    u smislu stava 10. istog člana.
+                </paragraf>
+                <paragraf broj="6">
+                    Članom 2. stav 1. Zakona o slobodnom pristupu informacijama od javnog značaja propisano
+                    je da je informacija od javnog značaja, u smislu ovog zakona, informacija kojom raspolaže organ
+                    javne vlasti, nastala u radu ili u vezi sa radom organa javne vlasti, sadržana u određenom
+                    dokumentu, a odnosi se na sve ono o čemu javnost ima opravdan interes da zna. 
+                </paragraf>
+                <paragraf broj="7">
+                    Imajući u vidu da je žalilac podnetim zahtevom tražio odgovore na određena pitanja u vezi
+                    sa ranije dobijenim obaveštenjem tog Preduzeća od 29.10.2018. godine, Poverenik nalazi da se u
+                    konkretnom slučaju, ne radi o informacijama od javnog značaja, u smislu citirane odredbe člana
+                    2. stav 1. Zakona, te da je zahtev neosnovan. Ovo iz razloga što bi postupanje organa vlasti po
+                    podnetom zahtevu zahtevalo davanje odgovora na pitanja, objašnjenja, obrazloženja, komentare, što
+                    bi podrazumevalo sačinjavanje novog dokumenta, dok u smislu citirane odredbe Zakona, organ
+                    vlasti nema obavezu da to čini, jer informacija od javnog značaja može biti samo ona informacija
+                    koja je već sadržana, odnosno opredmećena u dokumentu, u momentu kada je zatražena, odnosno koja
+                    već postoji, a što ovde nije slučaj. 
+                </paragraf>
+                <paragraf broj="8">
+                    Kako je organ vlasti propustio da odluči po podnetom zahtevu, odnosno da donese rešenje i
+                    odbije podneti zahtev, a nije opravdao razloge nedonošenja rešenja, Poverenik je, u postupku po
+                    žalbi, na osnovu člana 23. i člana 24. st. 1. Zakona o slobodnom pristupu informacijama od javnog
+                    značaja i člana 173. st. 2. Zakona o opštem upravnom postupku odlučio kao u dispozitivu ovog
+                    rešenja, odnosno odbio zahtev žalioca, kao neosnovan.
+                </paragraf>
+                <paragraf broj="9">
+                    Protiv ovog rešenja nije dopuštena žalba već se, u skladu sa Zakonom o upravnim
+                    sporovima, može pokrenuti upravni spor tužbom Upravnom sudu u Beogradu, u roku od 30 dana od
+                    dana prijema rešenja. Taksa na tužbu iznosi 390,00 dinara. 
+                </paragraf>
+            </obrazlozenja_zalbe>
+        </zalba>
+        <zalba broj="4">
+            Rešenje – poništava se:
+            <levo>
+                <broj_zalbe>071-01-2781/2017-03</broj_zalbe>
+            </levo>
+            <desno>
+                <datum_zalbe>22.01.2019.</datum_zalbe>
+            </desno>
+            <opis_zalbe>
+                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, i to zamenica
+                Poverenika, Stanojla Mandić, po odluci Narodne Skupštine Republike Srbije RS broj 17 od
+                08.04.2013. godine o izboru zamenika Poverenika, u postupku po žalbi AA, izjavljenoj protiv
+                rešenja Privrednog suda u Leskovcu VIII Su.br. 38/2015-9-6 od 31.07.2017. godine, na osnovu člana
+                35. stav 1. tačka 5. i člana 33. stav 5. Zakona o slobodnom pristupu informacijama od javnog značaja
+            </opis_zalbe>
             <fusnota>
                 Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
                 Informator o radu 31.08.2020.godine
             </fusnota>
-            <paragraf broj="6">
-                Imajući u vidu da organ vlasti po zahtevu žalioca od 16.04.2020. godine nije postupio u
-                skladu sa navedenim odredbama Zakona o slobodnom pristupu informacijama od javnog značaja, a
-                da nije opravdao razloge nepostupanja po podnetom zahtevu, Poverenik je u postupku po žalbi, na
-                osnovu člana 23. i člana 24. st. 1. i 4. Zakona o slobodnom pristupu informacijama od javnog
-                značaja i člana 173. st. 2. Zakona o opštem upravnom postupku, odlučio kao u stavu I dispozitiva
-                ovog rešenja, našavši da je žalba osnovana, odnosno da je nesporno pravo žalioca na tražene
-                informacije u smislu člana 5. Zakona o slobodnom pristupu informacijama od javnog značaja, po
-                kome svako ima pravo da mu bude saopšteno da li organ vlasti poseduje ili mu je dostupna određena
-                informacija od javnog značaja, kao i da mu se informacija, ukoliko je u posedu organa, učini
-                dostupnom, na način kako je to naloženo u stavu I dispozitiva ovog rešenja, što je u skladu sa
-                odredbom člana 12. Zakona o slobodnom pristupu informacijama od javnog značaja, koja predviđa
-                mogućnost izdvajanja tražene informacije od javnog značaja od ostalih informacija sadržanih u
-                dokumentu u koje organ vlasti nije dužan da tražiocu omogući uvid, jer bi se dostupnošću tim
-                informacijama povredilo pravo na privatnost i zaštitu podataka o ličnosti lica na koja se
-                tražene informacije odnose..
-            </paragraf>
-            <paragraf broj="7">
-                Učiteljski fakultet u Prizrenu sa privremenim sedištem u Leposaviću, je dužan da o
-                izvršenju rešenja iz stava I dispozitiva, obavesti Poverenika u skladu sa članom 24. stav 3. Zakona
-                o slobodnom pristupu informacijama od javnog značaja. 
-            </paragraf>
-            <paragraf broj="8">
-                Uputstvo o pravnom sredstvu:
-            </paragraf>
-            <paragraf broj="9">
-                Protiv ovog rešenja nije dopuštena žalba već se, u skladu sa Zakonom o upravnim
-                sporovima, može pokrenuti upravni spor tužbom Upravnom sudu u Beogradu, u roku od 30 dana od
-                dana prijema rešenja. Taksa na tužbu iznosi 390,00 dinara.
-            </paragraf>
-        </obrazlozenja_zalbe>
-        <desno_prve_zalbe>
-            POVERENIK
-            <ime_poverenika>
-                Milan Marinović 
-            </ime_poverenika>
-        </desno_prve_zalbe>
-    </zalba>
-    <zalba broj="2">
-        Rešenje – odbija se kao neosnovana:
-        <levo>
-            <broj_zalbe>071-01-1061/2020-03</broj_zalbe>
-        </levo>
-        <desno>
-            <datum_zalbe>29.06.2020.</datum_zalbe>
-        </desno>
-        <opis_zalbe>
-            Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po
-            žalbi koju je izjavio AA, protiv obaveštenja Ministarstva za rad, zapošljavanje, boračka i
-            socijalna pitanja Republike Srbije u Beogradu broj: 07-00-00019/2020-01 od 01.04.2020. godine,
-            zbog nedobijanja traženih informacija po njegovom zahtevu za pristup informacijama od javnog
-            značaja podnetom 12.03.2020. godine, na osnovu člana 35. stav 1. tačka 5. Zakona o slobodnom
-            pristupu informacijama od javnog značaja („Službeni glasnik RS” br. 120/04, 54/07, 104/09 i
-            36/10), a u vezi sa članom 4. tačka 22. Zakona o zaštiti podataka o ličnosti („Službeni glasnik
-            RS” br. 87/18), kao i člana 23. i člana 24. stav 1. Zakona o slobodnom pristupu informacijama od
-            javnog značaja i člana 170. stav 1. tačka 1. Zakona o opštem upravnom postupku („Službeni glasnik
-            RS”, br. 18/16 i 95/18), donosi
-        </opis_zalbe>
-        <naslov>R E Š E Nj E</naslov>
-        <resenje_zalbe>
-            Odbija se, kao neosnovana, žalba AA, izjavljena protiv obaveštenja Ministarstva za rad,
-            zapošljavanje, boračka i socijalna pitanja Republike Srbije u Beogradu broj: 07-00-00019/2020-01
-            od 01.04.2020. godine, zbog nedobijanja traženih informacija po njegovom zahtevu za pristup
-            informacijama od javnog značaja podnetom 12.03.2020. godine.
-        </resenje_zalbe>
-        <fusnota>
-            Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
-            Informator o radu 31.08.2020.godine
-        </fusnota>
-        <podnaslov>O b r a z l o ž e nj e</podnaslov>
-        <obrazlozenja_zalbe>
-            <paragraf broj="10">
-                AA, kao tražilac informacija, izjavio je dana 14.04.2020. godine žalbu Povereniku protiv
-                obaveštenja Ministarstva za rad, zapošljavanje, boračka i socijalna pitanja Republike Srbije u
-                Beogradu broj: 07-00-00019/2020-01 od 01.04.2020. godine, zbog nedobijanja traženih informacija
-                po njegovom zahtevu za pristup informacijama od javnog značaja podnetom 12.03.2020. godine. U
-                žalbi je naveo da mu predmetnim obaveštenjem organ vlasti nije dostavio tražene informacije,
-                pa predlaže da Poverenik uvaži njegovu žalbu i naloži da mu se dostave tražene informacije. U
-                prilogu je dostavio kopije zahteva i ožalbenog obaveštenja.
-            </paragraf>
-            <paragraf broj="11">
-                Postupajući po žalbi Poverenik je dana 22.04.2020. godine istu uputio na izjašnjenje
-                Ministarstvu za rad, zapošljavanje, boračka i socijalna pitanja Republike Srbije u Beogradu, kao
-                organu vlasti u smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja.                
-            </paragraf>
-            <paragraf broj="12">
-                U odgovoru na žalbu od 18.05.2020. godine, organ vlasti je ostao pri navodima iz ožalbenog
-                obaveštenja, ističući da je žaliocu dostavio informacije kojima je raspolagao u trenutku
-                podnošenja zahteva za pristup informacijama od javnog značaja.
-            </paragraf>
-            <paragraf broj="13">
-                Po razmatranju žalbe i ostalih spisa ovog predmeta, doneta je odluka kao u dispozitivu
-                rešenja iz sledećih razloga:
-            </paragraf>
-            <paragraf broj="14">
-                Uvidom u spise predmeta utvrđeno je da je AA, podneo Ministarstvu za rad, zapošljavanje,
-                boračka i socijalna pitanja Republike Srbije u Beogradu, zahtev od 12.03.2020. godine za pristup
-                informacijama od javnog značaja, kojim je u vezi sa stradanjem radnika, koji je marta 2020. godine
-                poginuo prilikom izvođenja radova na prostoru Beogradskog zoo vrta, tražio dostavljanje
-                određenih informacija, i to: ime i prezime odnosno inicijale poginulog radnika, naziv pravnog
-                subjekta za koga je navedeni radnik radio, da li je radnik bio prijavljen, da li je izvršen
-                inspekcijski nadzor, kao i kopije dokumenata o izvršenom inspekcijskom nadzoru.
-            </paragraf>
-            <paragraf broj="15">
-                Dalje je, uvidom u spise predmeta utvrđeno da je odgovorom broj: 07-00-00019/2020-01 od
-                01.04.2020. godine, organ vlasti obavestio žalioca da je do smrtne povrede na radu zaposlenog BB
-                koja se dogodila, dana 05.03.2020. godine oko 20,30 časova, u krugu Zoološkog vrta u Beogradu, Mali
-                Kalemegdan br. 8, došlo nakon obrušavanja oplate potpornog zida, dužine oko 5 metara i visine
-                3 metra, kao i da je MUP, Policijska uprava Stari Grad, dana 05.03.2020. godine oko 21,30 časova
-                prijavilo inspekciji rada navedenu smrtnu povredu na radu, a da je inspektor rada Odeljenja
-                inspekcije rada u Gradu Beogradu izašao na lice mesta, dana 06.03.2020. godine u 7,30 časova, da je
-                nadzor povodom navedene smrtne povrede na radu u toku i da će nakon utvrđivanja svih relevantnih
-                činjenica vezanih za dešavanje smrtne povrede na radu, inspektor rada preduzeti mere iz domena
-                svoje nadležnosti, te da, kako je postupak inspekcijskog nadzora u toku, to se dostavljaju navedene
-                informacije sa kojima organ raspolaže u tom trenutku. 
-            </paragraf>
-            <paragraf broj="16">
-                Članom 16. stav 1. Zakona o slobodnom pristupu informacijama od javnog značaja propisano
-                je da je organ vlasti dužan da bez odlaganja, a najkasnije u roku od 15 dana od dana prijema zahteva,
-                tražioca obavesti o posedovanju informacije, stavi mu na uvid dokument koji sadrži traženu
-                informaciju, odnosno izda mu ili uputi kopiju tog dokumenta.
-            </paragraf>
-            <paragraf broj="17">
-                Imajući u vidu da je organ vlasti, pre izjavljene žalbe, postupio po zahtevu žalioca, tako
-                što ga je odgovorom broj: 07-00-00019/2020-01 od 01.04.2020. godine, obavestio o inicijalima
-                poginulog radnika, kao i da je inspektor rada Odeljenja inspekcije rada u Gradu Beogradu, dana
-                06.03.2020. godine u 7,30 časova, izašao na lice mesta, nakon prijave Policijske uprave Stari
-                Grad, te da je inspekcijski nadzor povodom navedene smrtne povrede na radu u toku odnosno da mu
-                dostavlja informacije kojima u vremenu postupanja po predmetnom zahtevu, raspolaže, što je
-                ponovio i u odgovoru na žalbu, Poverenik nalazi da je organ vlasti postupio po podnetom zahtevu
-                žalioca u skladu sa citiranom odredbom člana 16. stav 1. Zakona o slobodnom pristupu
-                informacijama od javnog značaja, te da je žalba neosnovana.
-            </paragraf>
-            <fusnota>
-                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
-                Informator o radu 31.08.2020.godine
-            </fusnota>
-        </obrazlozenja_zalbe>
-    </zalba>
-    <zalba broj="3">
-        Rešenje – odbija se zahtev:
-        <levo>
-            <broj_zalbe> 071-01-4075/2018-03</broj_zalbe>
-        </levo>
-        <desno>
-            <datum_zalbe>11.06.2020.</datum_zalbe>
-        </desno>
-        <opis_zalbe>
-            Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po
-            žalbi AA izjavljenoj zbog nepostupanja Javnog komunalnog preduzeća „Beogradski vodovod i
-            kanalizacija“ u Beogradu, po njegovom zahtevu za pristup informacijama od javnog značaja od
-            05.11.2018. godine, na osnovu člana 35. stav 1. tačka 5 Zakona o slobodnom pristupu informacijama
-            od javnog značaja („Sl. glasnik RS“ br. 120/04, 54/07, 104/09 i 36/10), a u vezi sa članom 4. tačka 22.
-            Zakona o zaštiti podataka o ličnosti („Sl. glasnik RS“, broj 87/2018), kao i člana 23. i člana 24.
-            st. 1. Zakona o slobodnom pristupu informacijama od javnog značaja i člana 173. stav. 2. Zakona o
-            opštem upravnom postupku („Službeni glasnik RS“, br. 18/2016 i 95/2018 –autentično tumačenje),
-            donosi
-        </opis_zalbe>
-        <naslov>R E Š E Nj E</naslov>
-        <resenje_zalbe>
-            Odbija se, kao neosnovan, zahtev AA, za pristup informacijama od javnog značaja, podnet
-            05.11.2018. godine Javnom komunalnom preduzeću „Beogradski vodovod i kanalizacija“ u Beogradu.
-        </resenje_zalbe>
-        <podnaslov>O b r a z l o ž e nj e</podnaslov>
-        <obrazlozenja_zalbe>
-            <paragraf broj="18">
-                AA, izjavio je 26.11.2018. godine žalbu Povereniku, zbog nepostupanja Javnog komunalnog
-                preduzeća „Beogradski vodovod i kanalizacija“ u Beogradu, po njegovom zahtevu za pristup
-                informacijama od javnog značaja od 05.11.2018. godine. Uz žalbu je priložena kopija podnetog
-                zahteva sa dokazom o predaji organu vlasti. 
-            </paragraf>
-            <paragraf broj="19">
-                Postupajući po podnetoj žalbi Poverenik je dana 28.11.2018. godine dostavio žalbu na
-                izjašnjenje Javnom komunalnom preduzeću „Beogradski vodovod i kanalizacija“ u Beogradu, kao
-                organu vlasti u smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja i
-                zatražio da se izjasni o navodima žalbe, posebno o razlozima nepostupanja u zakonskom roku u
-                skladu sa odredbama člana 16. st. 1-9. ili st. 10. Zakona, ostavljajući za to rok od osam dana, povodom
-                čega nije dobio odgovor.               
-            </paragraf>
-            <paragraf broj="20">
-                Po razmatranju žalbe i ostalih spisa ovog predmeta, doneta je odluka kao u dispozitivu
-                rešenja iz sledećih razloga:
-            </paragraf>
-            <paragraf broj="21">
-                Uvidom u spise predmeta utvrđeno je da je žalilac dana 05.11.2018. godine podneo zahtev za
-                pristup informacijama od javnog značaja Javnom komunalnom preduzeću „Beogradski vodovod i
-                kanalizacija“ u Beogradu, kojim je u vezi sa ranije dobijenim obaveštenjem tog Preduzeća od
-                29.10.2018. godine da u arhivama Službe tehničke dokumentacije i Sektora kanalizacione mreže
-                nema zahteva za projektovanje ili podataka za poslovni objekat u ulici Ustanička br. 61, tražio
-                odgovore na pitanja: da li to znači da za objekat „Donatelo“, ne postoji propisan kanalizacioni spoj; da li to znači da Uprava gradske opštine Voždovac, na čijoj teritoriji se nalazi pomenuti
-                poslovni objekat, treba samostalno da utvrdi da je to pravno lice samovlasno priključilo
-                unutrašnje instalacije svog objekta na gradsku kanalizaciju i donese nalog o isključenju objekta
-                sa gradske kanalizacije, bez podnošenja prijave tom nadležnom organu od strane Javnog komunalnog
-                preduzeća, te da li takvu prijavu treba da podnese treće lice, odnosno podnosilac zahteva; da li
-                priključenjem na glavnu kanalizacionu mrežu, kanalizacione cevi unutrašnje instalacije
-                prestaju biti samostalna stvar i postaju sastavni deo mreže, kao osnovno sredstva Javnog
-                komunalnog preduzeća, kao i da li bi unutrašnja instalacija uzvodno od prvog revizionog silaza
-                postala osnovno sredstvo Javnog komunalnog preduzeća ili bi vlasnik ostao u posedu iste. 
-            </paragraf>
-            <fusnota>
-                Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
-                Informator o radu 31.08.2020.godine
-            </fusnota>
-            <paragraf broj="22">
-                Takođe je uvidom u spise predmeta utvrđeno da po podnetom zahtevu žalioca organ vlasti
-                nije postupio, što je bio dužan da učini bez odlaganja, a najkasnije u roku od 15 dana od dana
-                prijema zahteva te da ga, u smislu člana 16. stav 1. Zakona o slobodnom pristupu informacijama od
-                javnog značaja, obavesti da li poseduje tražene informacije i da mu, ukoliko iste poseduje, dostavi
-                kopije dokumenata u kojima su one sadržane ili da, u suprotnom, donese rešenje o odbijanju zahteva,
-                u smislu stava 10. istog člana.
-            </paragraf>
-            <paragraf broj="23">
-                Članom 2. stav 1. Zakona o slobodnom pristupu informacijama od javnog značaja propisano
-                je da je informacija od javnog značaja, u smislu ovog zakona, informacija kojom raspolaže organ
-                javne vlasti, nastala u radu ili u vezi sa radom organa javne vlasti, sadržana u određenom
-                dokumentu, a odnosi se na sve ono o čemu javnost ima opravdan interes da zna. 
-            </paragraf>
-            <paragraf broj="24">
-                Imajući u vidu da je žalilac podnetim zahtevom tražio odgovore na određena pitanja u vezi
-                sa ranije dobijenim obaveštenjem tog Preduzeća od 29.10.2018. godine, Poverenik nalazi da se u
-                konkretnom slučaju, ne radi o informacijama od javnog značaja, u smislu citirane odredbe člana
-                2. stav 1. Zakona, te da je zahtev neosnovan. Ovo iz razloga što bi postupanje organa vlasti po
-                podnetom zahtevu zahtevalo davanje odgovora na pitanja, objašnjenja, obrazloženja, komentare, što
-                bi podrazumevalo sačinjavanje novog dokumenta, dok u smislu citirane odredbe Zakona, organ
-                vlasti nema obavezu da to čini, jer informacija od javnog značaja može biti samo ona informacija
-                koja je već sadržana, odnosno opredmećena u dokumentu, u momentu kada je zatražena, odnosno koja
-                već postoji, a što ovde nije slučaj. 
-            </paragraf>
-            <paragraf broj="25">
-                Kako je organ vlasti propustio da odluči po podnetom zahtevu, odnosno da donese rešenje i
-                odbije podneti zahtev, a nije opravdao razloge nedonošenja rešenja, Poverenik je, u postupku po
-                žalbi, na osnovu člana 23. i člana 24. st. 1. Zakona o slobodnom pristupu informacijama od javnog
-                značaja i člana 173. st. 2. Zakona o opštem upravnom postupku odlučio kao u dispozitivu ovog
-                rešenja, odnosno odbio zahtev žalioca, kao neosnovan.
-            </paragraf>
-            <paragraf broj="26">
-                Protiv ovog rešenja nije dopuštena žalba već se, u skladu sa Zakonom o upravnim
-                sporovima, može pokrenuti upravni spor tužbom Upravnom sudu u Beogradu, u roku od 30 dana od
-                dana prijema rešenja. Taksa na tužbu iznosi 390,00 dinara. 
-            </paragraf>
-        </obrazlozenja_zalbe>
-    </zalba>
-    <zalba broj="4">
-        Rešenje – poništava se:
-        <levo>
-            <broj_zalbe>071-01-2781/2017-03</broj_zalbe>
-        </levo>
-        <desno>
-            <datum_zalbe>22.01.2019.</datum_zalbe>
-        </desno>
-        <opis_zalbe>
-            Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, i to zamenica
-            Poverenika, Stanojla Mandić, po odluci Narodne Skupštine Republike Srbije RS broj 17 od
-            08.04.2013. godine o izboru zamenika Poverenika, u postupku po žalbi AA, izjavljenoj protiv
-            rešenja Privrednog suda u Leskovcu VIII Su.br. 38/2015-9-6 od 31.07.2017. godine, na osnovu člana
-            35. stav 1. tačka 5. i člana 33. stav 5. Zakona o slobodnom pristupu informacijama od javnog značaja
-        </opis_zalbe>
-        <fusnota>
-            Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
-            Informator o radu 31.08.2020.godine
-        </fusnota>
-    </zalba>
+        </zalba>
+    </zalbe>
 </resenja>
