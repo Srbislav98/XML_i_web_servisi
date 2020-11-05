@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<zalba>
-    <naslov bold="true" align="center">
+<zalba id="1">
+    <naslov>
         ŽALBA PROTIV ODLUKE ORGANA VLASTI KOJOM SE 
         <podvuceno>ODBIJEN ILI ODBACEN ZAHTEV</podvuceno> ZA PRISTUP INFORMACIJI
     </naslov>
     
-    <paragraf bold="true" broj="1">Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti </paragraf>
+    <paragraf broj="1">Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti </paragraf>
     
     <paragraf broj="2">Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15 </paragraf>
     
     
-    <paragraf broj="3" align="center">
-        <naslov  bold="true">
+    <paragraf broj="3">
+        <naslov>
             Ž A L B A
         </naslov>
-        
-        (
-        <informacije></informacije>
-        )
-        (Ime, prezime, odnosno naziv, adresa i sedište žalioca)
-        protiv resenja-zaključka
-        (
+        <zalioc>
+            <naziv></naziv>
+            <adresa></adresa>
+        </zalioc>
         <naziv_organa></naziv_organa>
-        )
-        (naziv organa koji je doneo odluku)
-        Broj
-        <broj></broj>
-        od
+        <broj></broj>   
         <godina></godina>
-        godine.
-        
     </paragraf>
     
-    <paragraf broj="4" uvucen="True">
+    <paragraf broj="4">
         Navedenom odlukom organa vlasti (rešenjem, zaključkom, obaveštenjem u pisanoj formi 
         sa elementima odluke) , suprotno zakonu, odbijen-odbačen je moj zahtev koji sam podneo/la-
         uputio/la dana <datum></datum> godine i tako mi uskraćeno-onemogućeno ostvarivanje ustavnog i
@@ -41,43 +32,33 @@
         jer nije zasnovana na Zakonu o slobodnom pristupu informacijama od javnog značaja.
     </paragraf>
     
-    <paragraf broj="5" uvucen="True">
+    <paragraf broj="5">
         Na osnovu iznetih razloga, predlažem da Poverenik uvaži moju žalbu,  poništi 
         odluka prvostepenog organa i omogući mi pristup traženoj/im  informaciji/ma.
     </paragraf>
     
-    <paragraf broj="6" uvucen="True">
+    <paragraf broj="6">
         Žalbu podnosim blagovremeno, u zakonskom roku utvrđenom u članu 22. st. 1. Zakona o
         slobodnom pristupu informacijama od javnog značaja.
     </paragraf>
     
-    <levo align="left">
+    <levo>
         <paragraf broj="7">
-            U
             <mesto></mesto>
-            ,
-        
-            dana
             <datum></datum>
-            godine
         </paragraf>
     </levo>
     
-    <desno align="right">
+    <desno>
         <paragraf broj="8">
             <podnosilac></podnosilac>
-            Podnosilac žalbe/Ime i prezime
             <adresa></adresa>
-            adresa
             <kontakt></kontakt>
-            drugi podaci za kontakt
             <potpis></potpis>
-            potpis
         </paragraf>
     </desno>
     
     <paragraf broj="9">
-        <zaglavlje bold="true">Napomena:</zaglavlje> 
         <napomene>
             <napomena broj="1">
                 U žalbi se mora navesti odluka koja se pobija (rešenje, zaključak, obaveštenje), naziv 
