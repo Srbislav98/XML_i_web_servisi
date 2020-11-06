@@ -1,57 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zalba>
-    <naslov align = "center" bold = "true">
-        ŽALBA KADA ORGAN VLASTI <podvuceno>NIJE POSTUPIO/ nije postupio u celosti/ PO ZAHTEVU</podvuceno> 
-        TRAŽIOCA U ZAKONSKOM RADU (ĆUTANJE UPRAVE)
-    </naslov>
-    <paragraf broj="1" bold = "true">
-        Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti
-    </paragraf>
-    <paragraf broj="2">
-        Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15
-    </paragraf>
-    <paragraf broj="3">
-        U skladu sa članom 22. Zakona o slobodnom pristupu informacijama od javnog značaja podnosim:
-        <naslov align = "center">
-            <b>Ž A L B U</b>
+    <zaglavlje>
+        <naslov>
+            ŽALBA KADA ORGAN VLASTI NIJE POSTUPIO/ nije postupio u celosti/ PO ZAHTEVU
+            TRAŽIOCA U ZAKONSKOM RADU (ĆUTANJE UPRAVE)
+        </naslov>
+        <paragraf>
+            Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti
+        </paragraf>
+        <paragraf>
+            Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15
+        </paragraf>
+    </zaglavlje>
+    <sadrzaj>
+        <paragraf>
+            U skladu sa članom 22. Zakona o slobodnom pristupu informacijama od javnog značaja podnosim:
+            <naslov>Ž A L B U</naslov>
             protiv
             <naziv_organa></naziv_organa>
-            
-            
-            zbog toga što organ vlasti
-            <opcije bold="True">
-                <opcija>nije postupio</opcija>
-                <opcija>nije postupio u celosti</opcija>
-                <opcija>u zakonskom roku</opcija>
+            zbog toga što organ vlasti:
+            <opcije>
+                <opcija podvuceno="Ne">nije postupio</opcija>
+                <opcija podvuceno="Ne">nije postupio u celosti</opcija>
+                <opcija podvuceno="Ne">u zakonskom roku</opcija>
             </opcije>
-            
-        </naslov>
-        po mom zahtevu za slobodan pristup informacijama od javnog značaja sam podneo tom
-        organu dana <datum_zahteva></datum_zahteva> godine, a kojim sam tražio/la da mi se u skladu sa Zakonom o 
-        slobodnom pristupu informacijama od javnog značaja omogući uvid- kopija dokumneta koji
-        sadrži informacije o /u vezi sa:
-        <podaci_o_zahtevu_i_info></podaci_o_zahtevu_i_info>
-        
-    </paragraf>
-    <paragraf broj="4" uvucen="True">
-        Na osnovu iznetog, predlažem da Poverenik uvaži moju žalbu i omogući mi pristup
-        traženoj/im informaciji/ma.
-    </paragraf>
-    <paragraf broj="5" uvucen="True">
-        Kao dokaz, uz žalbu doastavljam kopiju zahteva sa dokazom o predaji organu vlasti.
-    </paragraf>
-    <paragraf broj="6" uvucen="True">
-        <b>Napomena:</b> Kod žalbe zbog nepostupanju po zahtevu u celosti treba priložiti
-        i dobijeni odgovor organa vlasti.
-    </paragraf>
-    <podnosilac_zalbe>
-        <ime_i_prezime></ime_i_prezime>
-        <potpis></potpis>
-        <adresa></adresa>
-        <drugi_kontakt_podaci></drugi_kontakt_podaci>
-    </podnosilac_zalbe>
-    <potpis></potpis>
-    <paragraf broj="7">
-        U <mesto_zalbe></mesto_zalbe>, dana <dan_zalbe></dan_zalbe> 201<broj_godine></broj_godine> godine
-    </paragraf>   
+            po mom zahtevu za slobodan pristup informacijama od javnog značaja sam podneo tom
+            organu dana <datum_zahteva></datum_zahteva> godine, a kojim sam tražio/la da mi se u skladu sa Zakonom o 
+            slobodnom pristupu informacijama od javnog značaja omogući uvid- kopija dokumneta koji
+            sadrži informacije o /u vezi sa:
+            <podaci_o_zahtevu_i_info></podaci_o_zahtevu_i_info>  
+        </paragraf>
+        <paragraf>
+            Na osnovu iznetog, predlažem da Poverenik uvaži moju žalbu i omogući mi pristup
+            traženoj/im informaciji/ma.
+        </paragraf>
+        <paragraf>
+            Kao dokaz, uz žalbu doastavljam kopiju zahteva sa dokazom o predaji organu vlasti.
+        </paragraf>
+        <napomena>
+            Napomena: Kod žalbe zbog nepostupanju po zahtevu u celosti treba priložiti
+            i dobijeni odgovor organa vlasti.
+        </napomena>
+        <levo>
+            <paragraf>
+                <mesto></mesto>
+                <datum></datum>
+            </paragraf>
+        </levo>
+        <desno>
+            <podnosilac_zalbe>
+                <ime></ime>
+                <prezime></prezime>
+                <potpis></potpis>
+                <adresa></adresa>
+                <drugi_kontakt_podaci></drugi_kontakt_podaci>
+            </podnosilac_zalbe>
+            <potpis_sluzbenika></potpis_sluzbenika>
+        </desno>
+    </sadrzaj>
 </zalba>
