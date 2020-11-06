@@ -16,7 +16,7 @@
             <b>Ž A L B U</b>
             protiv
             <naziv_organa></naziv_organa>
-            ( navesti naziv organa)
+            
             
             zbog toga što organ vlasti
             <opcije bold="True">
@@ -24,14 +24,14 @@
                 <opcija>nije postupio u celosti</opcija>
                 <opcija>u zakonskom roku</opcija>
             </opcije>
-            (podvući zbog čega se izjavljuje žalba)
+            
         </naslov>
         po mom zahtevu za slobodan pristup informacijama od javnog značaja sam podneo tom
         organu dana <datum_zahteva></datum_zahteva> godine, a kojim sam tražio/la da mi se u skladu sa Zakonom o 
         slobodnom pristupu informacijama od javnog značaja omogući uvid- kopija dokumneta koji
         sadrži informacije o /u vezi sa:
         <podaci_o_zahtevu_i_info></podaci_o_zahtevu_i_info>
-        <center>(navesti podatke o zahtevu i informaciji/ama)</center>
+        
     </paragraf>
     <paragraf broj="4" uvucen="True">
         Na osnovu iznetog, predlažem da Poverenik uvaži moju žalbu i omogući mi pristup
