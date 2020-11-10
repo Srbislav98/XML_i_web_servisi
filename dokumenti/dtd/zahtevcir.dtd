@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT zahtev (header, naslov , telo, fusnote)>
+
+
+<!ELEMENT header (#PCDATA|naziv_i_sediste)*>
+<!ELEMENT naziv_i_sediste EMPTY>
+
+
+<!ELEMENT naslov (#PCDATA)>
+
+
+<!ELEMENT telo (uvod, levo, desno)>
+
+<!ELEMENT uvod (#PCDATA|obrazlozenje)*>
+<!ELEMENT obrazlozenje (#PCDATA|dostava|informacije_o_dostavi)*>
+<!ELEMENT dostava (#PCDATA|nacin)*>
+<!ELEMENT nacin EMPTY>
+<!ELEMENT informacije_o_dostavi EMPTY>
+
+<!ELEMENT levo (p_gde, p_kada)>
+<!ELEMENT p_gde (#PCDATA|gde)*>
+<!ELEMENT gde EMPTY>
+<!ELEMENT p_kada (#PCDATA|dana|godine)*>
+<!ELEMENT dana EMPTY>
+<!ELEMENT godine EMPTY>
+
+<!ELEMENT desno (p_info, p_adresa, p_kontakt, p_potpis)>
+<!ELEMENT p_info (informacije, i_malim_slovima)>
+<!ELEMENT informacije EMPTY>
+<!ELEMENT i_malim_slovima (#PCDATA)>
+<!ELEMENT p_adresa (adresa, a_malim_slovima)>
+<!ELEMENT adresa EMPTY>
+<!ELEMENT a_malim_slovima (#PCDATA)>
+<!ELEMENT p_kontakt (kontakt, k_malim_slovima)>
+<!ELEMENT kontakt EMPTY>
+<!ELEMENT k_malim_slovima (#PCDATA)>
+<!ELEMENT p_potpis (potpis, p_malim_slovima)>
+<!ELEMENT potpis EMPTY>
+<!ELEMENT p_malim_slovima (#PCDATA)>
+
+
+<!ELEMENT fusnote (fusnota*)>
+<!ELEMENT fusnota (#PCDATA)>
+<!ATTLIST fusnota br_zvezda CDATA #REQUIRED>
