@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE zahtev SYSTEM "zahtevcir.dtd">
 
-<DOCUMENT zahtev SYSTEM "zahtevcir.dtd">
 <zahtev>
     <header>
         <naziv_i_sediste></naziv_i_sediste>
         naziv i sedište organa kome se zahtev upućuje
     </header>
     
-    <naslov align="center" bold="true">
+    <naslov>
         Z A H T E V
         za pristup informaciji od javnog značaja
     </naslov>
@@ -31,7 +31,7 @@
                 </dostava>
                 
                 Ovaj zahtev se odnosi na sledeće informacije:
-                <informacije></informacije>
+                <informacije_o_dostavi></informacije_o_dostavi>
             </obrazlozenje>
         </uvod>
         
@@ -50,30 +50,30 @@
             </p_kada>
         </levo>
         
-        <desno align="right">
+        <desno>
             <p_info>
                 <informacije></informacije>
-                <malim_slovima>
+                <i_malim_slovima>
                     Tražilac informacije/Ime i prezime
-                </malim_slovima>
+                </i_malim_slovima>
             </p_info>
             <p_adresa>
                 <adresa></adresa>
-                <malim_slovima>
+                <a_malim_slovima>
                     adresa
-                </malim_slovima>
+                </a_malim_slovima>
             </p_adresa>
             <p_kontakt>
                 <kontakt></kontakt>
-                <malim_slovima>
+                <k_malim_slovima>
                     drugi podaci za kontakt
-                </malim_slovima>
+                </k_malim_slovima>
             </p_kontakt>
             <p_potpis>
                 <potpis></potpis>
-                <malim_slovima>
+                <p_malim_slovima>
                     Potpis
-                </malim_slovima>
+                </p_malim_slovima>
             </p_potpis>
         </desno>
     </telo>
