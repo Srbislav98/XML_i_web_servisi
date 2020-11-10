@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<DOCUMENT zahtev SYSTEM "zahtevcir.dtd">
 <zahtev>
     <header>
         <naziv_i_sediste></naziv_i_sediste>
@@ -13,66 +15,66 @@
     
     
     <telo>
-        <paragraf broj="1">
+        <uvod>
             Na osnovu člana 15. st. 1. Zakona o slobodnom pristupu informacijama od javnog značaja („Službeni glasnik RS“, br. 120/04, 54/07, 104/09 i 36/10), od gore navedenog organa zahtevam:*
-            <paragraf>
+            <obrazlozenje>
                 obaveštenje da li poseduje traženu informaciju;
                 ⁫uvid u dokument koji sadrži traženu informaciju;
                 ⁫kopiju dokumenta koji sadrži traženu informaciju;
                 ⁫dostavljanje kopije dokumenta koji sadrži traženu informaciju:**
-                <paragraf>
+                <dostava>
                     poštom
                     ⁫elektronskom poštom
                     ⁫faksom
                     ⁫na drugi način:***
                     <nacin></nacin>
-                </paragraf>
+                </dostava>
                 
                 Ovaj zahtev se odnosi na sledeće informacije:
                 <informacije></informacije>
-            </paragraf>
-        </paragraf>
+            </obrazlozenje>
+        </uvod>
         
         <levo>
-            <paragraf broj="2">
+            <p_gde>
                 U
                 <gde></gde>
                 .
-            </paragraf>
-            <paragraf>
+            </p_gde>
+            <p_kada>
                 dana
                 <dana></dana>
                 201
                 <godine></godine>
                 godine
-            </paragraf>
+            </p_kada>
         </levo>
         
         <desno align="right">
-            <paragraf broj="3">
+            <p_info>
                 <informacije></informacije>
                 <malim_slovima>
                     Tražilac informacije/Ime i prezime
                 </malim_slovima>
-            </paragraf>
-            <paragraf broj="4">
+            </p_info>
+            <p_adresa>
                 <adresa></adresa>
                 <malim_slovima>
                     adresa
                 </malim_slovima>
-            </paragraf>
-            <paragraf broj="5">
+            </p_adresa>
+            <p_kontakt>
                 <kontakt></kontakt>
                 <malim_slovima>
                     drugi podaci za kontakt
                 </malim_slovima>
-            </paragraf>
-            <paragraf broj="6">
+            </p_kontakt>
+            <p_potpis>
                 <potpis></potpis>
                 <malim_slovima>
                     Potpis
                 </malim_slovima>
-            </paragraf>
+            </p_potpis>
         </desno>
     </telo>
     
