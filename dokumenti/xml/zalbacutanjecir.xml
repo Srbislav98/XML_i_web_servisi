@@ -1,61 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<zalba>
-    <zaglavlje>
-        <naslov>
-            ŽALBA KADA ORGAN VLASTI NIJE POSTUPIO/ nije postupio u celosti/ PO ZAHTEVU
-            TRAŽIOCA U ZAKONSKOM RADU (ĆUTANJE UPRAVE)
-        </naslov>
-        <paragraf>
-            Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti
-        </paragraf>
-        <paragraf>
-            Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15
-        </paragraf>
-    </zaglavlje>
+<zalbacutanjiecir datum="" mesto="">
+    <naslov>
+        ŽALBA KADA ORGAN VLASTI NIJE POSTUPIO/ nije postupio u celosti/ PO ZAHTEVU
+        TRAŽIOCA U ZAKONSKOM RADU (ĆUTANJE UPRAVE)
+    </naslov>
+    <podaci_o_primaocu>
+        <naziv>Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti</naziv>
+        <adresa>
+            <mesto>Beograd</mesto>
+            <ulica>Bulevar kralja Aleksandra</ulica>
+            <br_ulice>15</br_ulice>
+        </adresa>
+    </podaci_o_primaocu>   
     <sadrzaj>
-        <paragraf>
-            U skladu sa članom 22. Zakona o slobodnom pristupu informacijama od javnog značaja podnosim:
-            <naslov>Ž A L B U</naslov>
-            protiv
-            <naziv_organa></naziv_organa>
-            zbog toga što organ vlasti:
-            <opcije>
-                <opcija podvuceno="Ne">nije postupio</opcija>
-                <opcija podvuceno="Ne">nije postupio u celosti</opcija>
-                <opcija podvuceno="Ne">u zakonskom roku</opcija>
-            </opcije>
-            po mom zahtevu za slobodan pristup informacijama od javnog značaja sam podneo tom
-            organu dana <datum_zahteva></datum_zahteva> godine, a kojim sam tražio/la da mi se u skladu sa Zakonom o 
-            slobodnom pristupu informacijama od javnog značaja omogući uvid- kopija dokumneta koji
-            sadrži informacije o /u vezi sa:
-            <podaci_o_zahtevu_i_info></podaci_o_zahtevu_i_info>  
-        </paragraf>
-        <paragraf>
-            Na osnovu iznetog, predlažem da Poverenik uvaži moju žalbu i omogući mi pristup
-            traženoj/im informaciji/ma.
-        </paragraf>
-        <paragraf>
-            Kao dokaz, uz žalbu doastavljam kopiju zahteva sa dokazom o predaji organu vlasti.
-        </paragraf>
-        <napomena>
-            Napomena: Kod žalbe zbog nepostupanju po zahtevu u celosti treba priložiti
-            i dobijeni odgovor organa vlasti.
-        </napomena>
-        <levo>
-            <paragraf>
+        U skladu sa članom 22. Zakona o slobodnom pristupu informacijama od javnog značaja podnosim: Ž A L B U
+        protiv <naziv_organa></naziv_organa> zbog toga što organ vlasti:
+        <razlog_zalbe>
+            <opcija podvuceno="Ne">nije postupio</opcija>
+            <opcija podvuceno="Ne">nije postupio u celosti</opcija>
+            <opcija podvuceno="Ne">u zakonskom roku</opcija>
+        </razlog_zalbe>
+        po mom zahtevu za slobodan pristup informacijama od javnog značaja sam podneo tom
+        organu dana <datum_zahteva></datum_zahteva> godine, a kojim sam tražio/la da mi se u skladu sa Zakonom o 
+        slobodnom pristupu informacijama od javnog značaja omogući uvid- kopija dokumneta koji
+        sadrži informacije o /u vezi sa:
+        <podaci_o_zahtevu_i_info></podaci_o_zahtevu_i_info>  
+        Na osnovu iznetog, predlažem da Poverenik uvaži moju žalbu i omogući mi pristup
+        traženoj/im informaciji/ma.
+        Kao dokaz, uz žalbu doastavljam kopiju zahteva sa dokazom o predaji organu vlasti.
+        Napomena: Kod žalbe zbog nepostupanju po zahtevu u celosti treba priložiti
+        i dobijeni odgovor organa vlasti.
+        <podnosilac_zalbe>
+            <ime></ime>
+            <prezime></prezime>
+            <adresa>
                 <mesto></mesto>
-                <datum></datum>
-            </paragraf>
-        </levo>
-        <desno>
-            <podnosilac_zalbe>
-                <ime></ime>
-                <prezime></prezime>
-                <potpis></potpis>
-                <adresa></adresa>
-                <drugi_kontakt_podaci></drugi_kontakt_podaci>
-            </podnosilac_zalbe>
-            <potpis_sluzbenika></potpis_sluzbenika>
-        </desno>
+                <ulica></ulica>
+                <br_ulice></br_ulice>
+            </adresa>
+            <drugi_kontakt_podaci></drugi_kontakt_podaci>
+        </podnosilac_zalbe>
     </sadrzaj>
-</zalba>
+</zalbacutanjiecir>
