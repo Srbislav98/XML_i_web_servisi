@@ -8,8 +8,8 @@
             <xs:sequence>
                 <xs:element name="naziv_organa" type="xs:string"/>
                 <xs:element name="sediste_organa" type="xs:string"/>
-                <xs:element name="broj_predmeta" type="xs:int"/>
-                <xs:element name="datum" type="xs:date"/>
+                <xs:element name="broj_predmeta" type="xs:int" nillable="true"/>
+                <xs:element name="datum" type="xs:date" nillable="true"/>
                 <xs:element name="ime" type="xs:string"/>
                 <xs:element name="prezime" type="xs:string"/>
                 <xs:element name="naziv" type="xs:string"/>
@@ -32,9 +32,9 @@
     </xs:element>
     <xs:complexType mixed="true" name="tipUvid">
         <xs:sequence>
-            <xs:element name="godina" type="xs:gYear"/>
+            <xs:element name="godina" type="xs:gYear" nillable="true"/>
             <xs:element name="opis_trazene_informacije" type="xs:string"/>
-            <xs:element name="ime_dana">
+            <xs:element name="ime_dana" nillable="true">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Ponedeljak"/>
@@ -47,7 +47,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="broj_sati">
+            <xs:element name="broj_sati" nillable="true">
                 <xs:simpleType>
                     <xs:restriction base="xs:int">
                         <xs:minInclusive value="8"/>
@@ -55,7 +55,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="pocetak_akcije">
+            <xs:element name="pocetak_akcije" nillable="true">
                 <xs:simpleType>
                     <xs:restriction base="xs:time">
                         <xs:minInclusive value="08:00:00"/>
@@ -63,7 +63,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="kraj_akcije">
+            <xs:element name="kraj_akcije" nillable="true">
                 <xs:simpleType>
                     <xs:restriction base="xs:time">
                         <xs:minInclusive value="09:00:00"/>
@@ -73,13 +73,13 @@
             </xs:element>
             <xs:element name="naziv_zgrade" type="xs:string"/>
             <xs:element name="naziv_ulice" type="xs:string"/>
-            <xs:element name="broj_ulice" type="xs:int"/>
-            <xs:element name="broj_kancelarije" type="xs:int"/>
+            <xs:element name="broj_ulice" type="xs:int" nillable="true"/>
+            <xs:element name="broj_kancelarije" type="xs:int" nillable="true"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType mixed="true" name="tipIznosTroskova">
         <xs:sequence>
-            <xs:element name="kolicina_novca" type="xs:int"/>
+            <xs:element name="kolicina_novca" type="xs:int" nillable="true"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="tipDostavljeno">

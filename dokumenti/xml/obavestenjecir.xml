@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://www.ftn.uns.ac.rs/obavestenjecir file:/C:/Users/Kssbc/Documents/GitHub/XML_i_web_servisi/dokumenti/xsd/obavestenjecir.xsd">
     <naziv_organa></naziv_organa>
     <sediste_organa></sediste_organa>
-    <broj_predmeta>0</broj_predmeta>   
-    <datum>2020-01-01</datum>
+    <broj_predmeta xsi:nil = "true"></broj_predmeta>   
+    <datum xsi:nil = "true"></datum>
     <ime></ime>
     <prezime></prezime>
     <naziv></naziv>
@@ -18,9 +18,9 @@
     </naslov>
     <uvid>
         Na osnovu člana 16. st. 1. Zakona o slobodnom pristupu informacijama od javnog značaja, postupajući po vašem zahtevu za slobodan pristup informacijama od 
-        <godina>2020</godina>,  kojim ste tražili uvid u dokument/e sa informacijama o / u vezi sa: <opis_trazene_informacije></opis_trazene_informacije>obaveštavamo vas da dana 
-        <ime_dana>Ponedeljak</ime_dana> , u <broj_sati>8</broj_sati> časova, odnosno u vremenu od <pocetak_akcije>08:00:00</pocetak_akcije> do <kraj_akcije>09:00:00</kraj_akcije>,
-        u prostorijama organa u <naziv_zgrade></naziv_zgrade> ul. <naziv_ulice></naziv_ulice> br. <broj_ulice>0</broj_ulice> kancelarija br. <broj_kancelarije>0</broj_kancelarije>
+        <godina xsi:nil = "true"></godina>,  kojim ste tražili uvid u dokument/e sa informacijama o / u vezi sa: <opis_trazene_informacije></opis_trazene_informacije>obaveštavamo vas da dana 
+        <ime_dana xsi:nil = "true"></ime_dana> , u <broj_sati xsi:nil = "true"></broj_sati> časova, odnosno u vremenu od <pocetak_akcije xsi:nil = "true"></pocetak_akcije> do <kraj_akcije xsi:nil = "true"></kraj_akcije>,
+        u prostorijama organa u <naziv_zgrade></naziv_zgrade> ul. <naziv_ulice></naziv_ulice> br. <broj_ulice xsi:nil = "true"></broj_ulice> kancelarija br. <broj_kancelarije xsi:nil = "true"></broj_kancelarije>
         možete izvršiti uvid u dokument/e u kome je sadržana tražena informacija. 
     </uvid>
     <paragraf broj="1">
@@ -30,7 +30,7 @@
         Troškovi su utvrđeni Uredbom Vlade Republike Srbije („Sl. glasnik RS“, br. 8/06), i to: kopija strane A4 formata iznosi 3 dinara, A3 formata 6 dinara, CD 35 dinara, diskete 20 dinara, DVD 40 dinara, audio-kaseta – 150 dinara, video-kaseta 300 dinara, pretvaranje jedne strane dokumenta iz fizičkog u elektronski oblik – 30 dinara.
     </paragraf>
     <iznos_troskova>
-        Iznos ukupnih troškova izrade kopije dokumenta po vašem zahtevu iznosi <kolicina_novca>0</kolicina_novca> dinara i uplaćuje se na žiro-račun Budžeta Republike Srbije br. 840-742328-843-30, s pozivom na broj 97 – oznaka šifre opštine/grada gde se nalazi organ vlasti (iz Pravilnika o uslovima i načinu vođenja računa – „Sl. glasnik RS“, 20/07... 40/10). 
+        Iznos ukupnih troškova izrade kopije dokumenta po vašem zahtevu iznosi <kolicina_novca xsi:nil = "true"></kolicina_novca> dinara i uplaćuje se na žiro-račun Budžeta Republike Srbije br. 840-742328-843-30, s pozivom na broj 97 – oznaka šifre opštine/grada gde se nalazi organ vlasti (iz Pravilnika o uslovima i načinu vođenja računa – „Sl. glasnik RS“, 20/07... 40/10). 
     </iznos_troskova>
     <dostavljeno>
         <kojem_M._P._dostavlja></kojem_M._P._dostavlja>
