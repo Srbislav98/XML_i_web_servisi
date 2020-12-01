@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<zalba id="1">
+<zalba>
     <naslov>
-        ŽALBA PROTIV ODLUKE ORGANA VLASTI KOJOM SE 
-        <podvuceno>ODBIJEN ILI ODBACEN ZAHTEV</podvuceno> ZA PRISTUP INFORMACIJI
+        ŽALBA PROTIV ODLUKE ORGANA VLASTI KOJOM JE 
+        ODBIJEN ILI ODBACEN ZAHTEV ZA PRISTUP INFORMACIJI
     </naslov>
     
-    <paragraf broj="1">Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti </paragraf>
+    <primaoc>Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti </primaoc>
     
-    <paragraf broj="2">Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15 </paragraf>
+    <adresa_primaoca>Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15 </adresa_primaoca>
     
-    
-    <paragraf broj="3">
-        <naslov>
-            Ž A L B A
-        </naslov>
+    <podaci_o_zalbi>     
+        Ž A L B A
         <zalioc>
             <naziv></naziv>
             <adresa></adresa>
@@ -21,56 +18,52 @@
         <naziv_organa></naziv_organa>
         <broj></broj>   
         <godina></godina>
-    </paragraf>
+    </podaci_o_zalbi>
     
-    <paragraf broj="4">
+    <opis>
         Navedenom odlukom organa vlasti (rešenjem, zaključkom, obaveštenjem u pisanoj formi 
         sa elementima odluke) , suprotno zakonu, odbijen-odbačen je moj zahtev koji sam podneo/la-
         uputio/la dana <datum></datum> godine i tako mi uskraćeno-onemogućeno ostvarivanje ustavnog i
         zakonskog prava na slobodan pristup informacijama od javnog značaja. Odluku pobijam u 
         celosti, odnosno u delu kojim <unos></unos>
         jer nije zasnovana na Zakonu o slobodnom pristupu informacijama od javnog značaja.
-    </paragraf>
+    </opis>
     
-    <paragraf broj="5">
-        Na osnovu iznetih razloga, predlažem da Poverenik uvaži moju žalbu,  poništi 
-        odluka prvostepenog organa i omogući mi pristup traženoj/im  informaciji/ma.
-    </paragraf>
-    
-    <paragraf broj="6">
-        Žalbu podnosim blagovremeno, u zakonskom roku utvrđenom u članu 22. st. 1. Zakona o
-        slobodnom pristupu informacijama od javnog značaja.
-    </paragraf>
-    
-    <levo>
-        <paragraf broj="7">
-            <mesto></mesto>
-            <datum></datum>
+    <paragrafi>
+        <paragraf broj="1">
+            Na osnovu iznetih razloga, predlažem da Poverenik uvaži moju žalbu,  poništi 
+            odluka prvostepenog organa i omogući mi pristup traženoj/im  informaciji/ma.
         </paragraf>
-    </levo>
-    
-    <desno>
-        <paragraf broj="8">
-            <podnosilac></podnosilac>
-            <adresa></adresa>
-            <kontakt></kontakt>
-            <potpis></potpis>
+        
+        <paragraf broj="2">
+            Žalbu podnosim blagovremeno, u zakonskom roku utvrđenom u članu 22. st. 1. Zakona o
+            slobodnom pristupu informacijama od javnog značaja.
         </paragraf>
-    </desno>
+    </paragrafi>
     
-    <paragraf broj="9">
-        <napomene>
-            <napomena broj="1">
-                U žalbi se mora navesti odluka koja se pobija (rešenje, zaključak, obaveštenje), naziv 
-                organa koji je odluku doneo, kao i broj i datum odluke. Dovoljno je da žalilac navede u 
-                žalbi u kom pogledu je nezadovoljan odlukom, s tim da žalbu ne mora posebno obrazložiti.
-                Ako žalbu izjavljuje na ovom obrascu, dodatno obrazloženje može  posebno priložiti. 
-            </napomena>
-            <napomena broj="2">
-                Uz žalbu obavezno priložiti kopiju podnetog zahteva i dokaz o njegovoj predaji-upućivanju organu
-                kao i kopiju odluke organa koja se osporava žalbom.
-            </napomena>
-        </napomene>
-    </paragraf>
+    <mesto_i_datum>
+        <mesto></mesto>
+        <datum></datum>
+    </mesto_i_datum>
+    
+    <podaci_o_podnosiocu>
+        <podnosilac></podnosilac>
+        <adresa></adresa>
+        <kontakt></kontakt>
+        <potpis></potpis>
+    </podaci_o_podnosiocu>
+    
+    <napomene>
+        <napomena broj="1">
+            U žalbi se mora navesti odluka koja se pobija (rešenje, zaključak, obaveštenje), naziv 
+            organa koji je odluku doneo, kao i broj i datum odluke. Dovoljno je da žalilac navede u 
+            žalbi u kom pogledu je nezadovoljan odlukom, s tim da žalbu ne mora posebno obrazložiti.
+            Ako žalbu izjavljuje na ovom obrascu, dodatno obrazloženje može  posebno priložiti. 
+        </napomena>
+        <napomena broj="2">
+            Uz žalbu obavezno priložiti kopiju podnetog zahteva i dokaz o njegovoj predaji-upućivanju organu
+            kao i kopiju odluke organa koja se osporava žalbom.
+        </napomena>
+    </napomene> 
     
 </zalba>
