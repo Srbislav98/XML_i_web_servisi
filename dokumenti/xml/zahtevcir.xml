@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE zahtev SYSTEM "zahtevcir.dtd">
 
-<zahtev>
-    <header>
+<zahtev xmlns="http://www.ftn.uns.ac.rs/zahtevcir"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.ftn.uns.ac.rs/zahtevcir file:/C:/Users/Acer/Desktop/zahtev.xsd">
+    <Header>
         <naziv_i_sediste></naziv_i_sediste>
-        naziv i sedište organa kome se zahtev upućuje
-    </header>
+    </Header>
+
     
     <naslov>
         Z A H T E V
