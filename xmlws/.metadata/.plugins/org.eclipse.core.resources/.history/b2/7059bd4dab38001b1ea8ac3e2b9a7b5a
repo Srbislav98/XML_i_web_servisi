@@ -1,0 +1,13 @@
+package com.example.service;
+
+import com.example.dto.ObavestenjeDTO;
+
+@Service
+public class ObavestenjeService {
+
+	public String jaxBTest(ObavestenjeDTO dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
