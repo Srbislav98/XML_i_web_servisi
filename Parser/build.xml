@@ -36,25 +36,28 @@
 	</target>
 	
 	<target name="generate_classes_1" depends="init">
-		<xjc schema="${data.dir}/univerzitet1.xsd" destdir="${gen.dir}"/>
+		<xjc schema="${data.dir}/obavestenjecir.xsd" destdir="${gen.dir}"/>
 	</target>
 	
 	<target name="generate_classes_2" depends="init">
-		<xjc schema="${data.dir}/univerzitet2.xsd" destdir="${gen.dir}"/>
+		<xjc schema="${data.dir}/resenja.xsd" destdir="${gen.dir}"/>
 	</target>
 	
 	<target name="generate_classes_3" depends="init">
-		<xjc schema="${data.dir}/student3.xsd" destdir="${gen.dir}"/>
+		<xjc schema="${data.dir}/zahtevcir.xsd" destdir="${gen.dir}"/>
 	</target>
 	
-	<!-- Requires JRE6 for ant task execution, ExternalToolsConfiguration -->
-	<target name="generate_schema" depends="init">
-		<schemagen srcdir="${src.dir}/rs/ac/uns/ftn/jaxb/example4" destdir="${gen.dir}">
-			<schema file="address_book4.xsd" namespace="http://www.ftn.uns.ac.rs/jaxb/example4"/>
-		</schemagen>
+	<target name="generate_classes_4" depends="init">
+			<xjc schema="${data.dir}/zalbacutanjecir.xsd" destdir="${gen.dir}"/>
 	</target>
+	
+	<target name="generate_classes_5" depends="init">
+			<xjc schema="${data.dir}/zalbanaodluku.xsd" destdir="${gen.dir}"/>
+	</target>
+	
+	
 		
-	<target name="generate_all" depends="generate_classes_1,generate_classes_2,generate_classes_3,generate_schema"/>
+	<target name="generate_all" depends="generate_classes_1,generate_classes_2,generate_classes_3, generate_classes_4,generate_classes_5 "/>
 
 	<target name="main" depends="generate_all"/>
   
