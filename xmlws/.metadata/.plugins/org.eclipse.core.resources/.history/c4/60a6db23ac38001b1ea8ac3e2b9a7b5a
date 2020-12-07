@@ -1,0 +1,9 @@
+package com.example.dto;
+
+public class ObavestenjeDTO {
+
+	public ObavestenjeDTO(String response) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

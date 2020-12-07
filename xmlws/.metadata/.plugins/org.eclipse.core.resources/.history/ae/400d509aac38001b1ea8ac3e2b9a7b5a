@@ -1,0 +1,30 @@
+package com.example.dto;
+
+public class ObavestenjeDTO {
+
+	
+	private String text;
+
+	
+	public ObavestenjeDto() {
+		super();
+	}
+
+	public ObavestenjeDto(String text) {
+		super();
+		this.text = text;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+	
+	
+ 
+}
+
+}

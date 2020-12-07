@@ -11,21 +11,21 @@
     
     <adresa_primaoca>Adresa za poštu: Beograd, Bulevar kralja Aleksandra br. 15 </adresa_primaoca>
     
-    <podaci_o_zalbi>     
+    <podaci_o_zalbi>  
         Ž A L B A
         <zalioc>
             <naziv></naziv>
             <adresa></adresa>
         </zalioc>
         <naziv_organa></naziv_organa>
-        <broj></broj>   
-        <godina></godina>
+        <broj xsi:nil = "true"></broj>   
+        <godina xsi:nil = "true"></godina>
     </podaci_o_zalbi>
     
     <opis>
         Navedenom odlukom organa vlasti (rešenjem, zaključkom, obaveštenjem u pisanoj formi 
         sa elementima odluke) , suprotno zakonu, odbijen-odbačen je moj zahtev koji sam podneo/la-
-        uputio/la dana <datum></datum> godine i tako mi uskraćeno-onemogućeno ostvarivanje ustavnog i
+        uputio/la dana <datum xsi:nil = "true"></datum> godine i tako mi uskraćeno-onemogućeno ostvarivanje ustavnog i
         zakonskog prava na slobodan pristup informacijama od javnog značaja. Odluku pobijam u 
         celosti, odnosno u delu kojim <unos></unos>
         jer nije zasnovana na Zakonu o slobodnom pristupu informacijama od javnog značaja.
@@ -36,7 +36,6 @@
             Na osnovu iznetih razloga, predlažem da Poverenik uvaži moju žalbu,  poništi 
             odluka prvostepenog organa i omogući mi pristup traženoj/im  informaciji/ma.
         </paragraf>
-        
         <paragraf broj="2">
             Žalbu podnosim blagovremeno, u zakonskom roku utvrđenom u članu 22. st. 1. Zakona o
             slobodnom pristupu informacijama od javnog značaja.
@@ -45,7 +44,7 @@
     
     <mesto_i_datum>
         <mesto></mesto>
-        <datum></datum>
+        <datum xsi:nil = "true"></datum>
     </mesto_i_datum>
     
     <podaci_o_podnosiocu>
