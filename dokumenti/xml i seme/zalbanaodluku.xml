@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<zalba>
+<zalba xmlns="http://www.ftn.uns.ac.rs/zalbanaodluku"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.ftn.uns.ac.rs/zalbanaodluku file:zalbanaodluku.xsd">
     <naslov>
         ŽALBA PROTIV ODLUKE ORGANA VLASTI KOJOM JE 
         ODBIJEN ILI ODBACEN ZAHTEV ZA PRISTUP INFORMACIJI

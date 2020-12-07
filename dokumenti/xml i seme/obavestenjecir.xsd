@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
     targetNamespace="http://www.ftn.uns.ac.rs/obavestenjecir"
-    xmlns="http://www.ftn.uns.ac.rs/obavestenjecir"
     xmlns:oba="http://www.ftn.uns.ac.rs/obavestenjecir">
     <xs:element name="obavestenje">
         <xs:complexType mixed="false">
@@ -15,7 +14,7 @@
                 <xs:element name="naziv" type="xs:string"/>
                 <xs:element name="adresa_podnosioca_zahteva" type="xs:string"/>
                 <xs:element name="naslov" type="xs:string"/>
-                <xs:element name="uvid" type="tipUvid"/>
+                <xs:element name="uvid" type="oba:tipUvid"/>
                 <xs:element maxOccurs="2" name="paragraf">
                     <xs:complexType>
                         <xs:simpleContent>
@@ -25,8 +24,8 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="iznos_troskova" type="tipIznosTroskova"/>
-                <xs:element name="dostavljeno" type="tipDostavljeno"/>
+                <xs:element name="iznos_troskova" type="oba:tipIznosTroskova"/>
+                <xs:element name="dostavljeno" type="oba:tipDostavljeno"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resenje  xmlns="http://www.ftn.uns.ac.rs/resenja"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:/C:/Users/Kssbc/Documents/GitHub/XML_i_web_servisi/dokumenti/xsd/resenja.xsd">
+    xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:resenja.xsd">
     Rešenje – odbija se kao neosnovana:
     <levo>
         <broj_zalbe>071-01-1061/2020-03</broj_zalbe>
