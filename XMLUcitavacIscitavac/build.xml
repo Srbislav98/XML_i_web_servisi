@@ -1,4 +1,4 @@
-<project name="XMLprojekat" default="main" basedir=".">
+<project name="XMLParsers (JAXB)" default="main" basedir=".">
 
 	<!-- Skript generise potrebne java klase na osnovu XML seme ./data/univerzitet1.xsd
 	     Kako ova XML sema ima samo jedan globalni element, bice izgenerisana samo  jedna klasa (jedan .java fajl)
@@ -47,8 +47,9 @@
 		<xjc schema="${data.dir}/zahtevcir.xsd" destdir="${gen.dir}"/>
 	</target>
 	
-	<target name="generate_all" depends="generate_classes_1,generate_classes_2,generate_classes_3"/>
 	
+		
+	<target name="generate_all" depends="generate_classes_1,generate_classes_2,generate_classes_3"/>
 
 	<target name="main" depends="generate_all"/>
   

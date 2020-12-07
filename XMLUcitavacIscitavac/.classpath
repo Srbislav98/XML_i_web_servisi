@@ -7,5 +7,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/jaxb-impl-2.2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-api-2.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-xjc-2.2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jsr173_1.0_api.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

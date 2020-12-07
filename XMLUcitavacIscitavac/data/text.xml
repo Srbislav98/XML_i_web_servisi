@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftn:zahtev xmlns:ftn="http://www.ftn.uns.ac.rs/zahtevcir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ftn.uns.ac.rs/zahtevcir zahtevcir.xsd ">
+  <ftn:Header>
+    <ftn:naziv_i_sediste>ftn:naziv_i_sediste</ftn:naziv_i_sediste>
+  </ftn:Header>
+  <ftn:naslov>ftn:naslov</ftn:naslov>
+  <ftn:telo>
+    <ftn:uvod>
+      <ftn:obrazlozenje>
+        <ftn:dostava>
+          <ftn:nacin/>
+        </ftn:dostava>
+        <ftn:informacije_o_dostavi>ftn:informacije_o_dostavi</ftn:informacije_o_dostavi>
+      </ftn:obrazlozenje>
+    </ftn:uvod>
+    <ftn:levo>
+      <ftn:p_gde>
+        <ftn:gde>ftn:gde</ftn:gde>
+      </ftn:p_gde>
+      <ftn:p_kada>
+        <ftn:dana>ftn:dana</ftn:dana>
+        <ftn:godine>ftn:godine</ftn:godine>
+      </ftn:p_kada>
+    </ftn:levo>
+    <ftn:desno>
+      <ftn:p_info>
+        <ftn:informacije>ftn:informacije</ftn:informacije>
+        <ftn:i_malim_slovima>ftn:i_malim_slovima</ftn:i_malim_slovima>
+      </ftn:p_info>
+      <ftn:p_adresa>
+        <ftn:adresa>ftn:adresa</ftn:adresa>
+        <ftn:a_malim_slovima>ftn:a_malim_slovima</ftn:a_malim_slovima>
+      </ftn:p_adresa>
+      <ftn:p_kontakt>
+        <ftn:kontakt>ftn:kontakt</ftn:kontakt>
+        <ftn:k_malim_slovima>ftn:k_malim_slovima</ftn:k_malim_slovima>
+      </ftn:p_kontakt>
+      <ftn:p_potpis>
+        <ftn:potpis>ftn:potpis</ftn:potpis>
+        <ftn:p_malim_slovima>ftn:p_malim_slovima</ftn:p_malim_slovima>
+      </ftn:p_potpis>
+    </ftn:desno>
+  </ftn:telo>
+  <ftn:fusnote/>
+</ftn:zahtev>
