@@ -9,14 +9,14 @@ import javax.xml.bind.Unmarshaller;
 
 import rs.ac.uns.ftn.resenja.Resenje;
 
-public class Marshalling {
+public class MarshallingDrugoResenje {
 	
 	public void test() throws Exception{
 		try {
 			System.out.println("[INFO] Resenja: JAXB marshalling.\n");
 			JAXBContext context = JAXBContext.newInstance("rs.ac.uns.ftn.resenja");
 			Unmarshaller unmarshaller = context.createUnmarshaller();
-			Resenje resenje = (Resenje)unmarshaller.unmarshal(new File("./data/prvoResenje.xml"));
+			Resenje resenje = (Resenje)unmarshaller.unmarshal(new File("./data/drugoResenje.xml"));
 			
 			Marshaller marshaller = context.createMarshaller();
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
@@ -28,7 +28,7 @@ public class Marshalling {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		Marshalling test = new Marshalling();
+		MarshallingDrugoResenje test = new MarshallingDrugoResenje();
 		test.test();
 	}
 
