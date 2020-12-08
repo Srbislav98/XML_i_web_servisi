@@ -13,8 +13,7 @@
                 <xs:element name="prezime" type="xs:string"/>
                 <xs:element name="naziv" type="xs:string"/>
                 <xs:element name="adresa_podnosioca_zahteva" type="xs:string"/>
-                <xs:element name="naslov" type="xs:string"
-                    fixed="O B A V E Š T E Nj E  o stavljanju na uvid dokumenta koji sadrži traženu informaciju i o izradi kopije"/>
+                <xs:element name="naslov" type="xs:string"/>
                 <xs:element name="uvid" type="oba:tipUvid"/>
                 <xs:element maxOccurs="2" name="paragraf">
                     <xs:complexType>
@@ -26,18 +25,11 @@
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="iznos_troskova" type="oba:tipIznosTroskova"/>
-                <xs:element name="dostavljeno">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="Arhivi"/>
-                            <xs:enumeration value="Imenovanom"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
+                <xs:element name="dostavljeno" type="oba:tipDostavljeno"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:complexType mixed="false" name="tipUvid">
+    <xs:complexType mixed="true" name="tipUvid">
         <xs:sequence>
             <xs:element name="godina" type="xs:gYear" nillable="true"/>
             <xs:element name="opis_trazene_informacije" type="xs:string"/>
@@ -84,10 +76,15 @@
             <xs:element name="broj_kancelarije" type="xs:int" nillable="true"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType mixed="false" name="tipIznosTroskova">
+    <xs:complexType mixed="true" name="tipIznosTroskova">
         <xs:sequence>
             <xs:element name="kolicina_novca" type="xs:int" nillable="true"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="tipDostavljeno"> </xs:complexType>
+    <xs:complexType name="tipDostavljeno">
+        <xs:sequence>
+            <xs:element name="kojem_M._P._dostavlja" type="xs:string"/>
+            <xs:element name="arhiva" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>
