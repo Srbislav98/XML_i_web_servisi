@@ -1,6 +1,7 @@
 package parser.test;
 
 import java.io.File;
+import java.io.FileOutputStream;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -21,6 +22,7 @@ public class MarshallingObavestenjeCir {
 			Marshaller marshaller = context.createMarshaller();
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
 			marshaller.marshal(obavestenje, System.out);
+			marshaller.marshal(obavestenje, new FileOutputStream(new File("./data/marshal/obavestenjecir.xml")));
 		}
 		catch (JAXBException e) {
 			e.printStackTrace();

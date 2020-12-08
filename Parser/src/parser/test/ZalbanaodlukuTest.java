@@ -18,7 +18,7 @@ public class ZalbanaodlukuTest {
         test.test();
     }
 
-    private void test() {
+    private void test() throws FileNotFoundException {
         try {
             System.out.println("[INFO] Zalbanaodluku.\n");
             JAXBContext context = JAXBContext.newInstance("parser.zalbanaodluku");
@@ -28,6 +28,7 @@ public class ZalbanaodlukuTest {
             Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
             marshaller.marshal(zalba, System.out);
+            marshaller.marshal(zalba, new FileOutputStream(new File("./data/marshal/zalbanaodluku.xml")));
         }
         catch (JAXBException e) {
             e.printStackTrace();
