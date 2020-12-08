@@ -3,15 +3,16 @@
     targetNamespace="http://www.ftn.uns.ac.rs/zalbacutanjecir"
     xmlns:zal="http://www.ftn.uns.ac.rs/zalbacutanjecir">
 
-    <xs:element name="zalba">
+    <xs:element name="zalbacutanje">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="naslov" type="xs:string"/>
-                <xs:element name="podaci_o_primaocu" type="zal:TPodaci_o_Primaocu"/>
+                <xs:element name="naslov" type="xs:string"
+                    fixed="ŽALBA KADA ORGAN VLASTI NIJE POSTUPIO/ nije postupio u celosti/ PO ZAHTEVU TRAŽIOCA U ZAKONSKOM RADU (ĆUTANJE UPRAVE)"/>
+                <xs:element name="primalac_zalbe" type="zal:TPrimalac_Zalbe"/>
                 <xs:element name="sadrzaj" type="zal:TSadrzaj"/>
                 <xs:element name="podnosilac_zalbe" type="zal:TPodnosilac_Zalbe"/>
             </xs:sequence>
-            <xs:attribute name="datum" type="xs:string"/>
+            <xs:attribute name="datum" type="xs:date"/>
             <xs:attribute name="mesto" type="xs:string"/>
         </xs:complexType>
     </xs:element>
@@ -20,22 +21,20 @@
             <xs:sequence>
                 <xs:element name="mesto" type="xs:string"/>
                 <xs:element name="ulica" type="xs:string"/>
-                <xs:element name="broj" type="xs:string"/>
+                <xs:element name="br_ulice">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:int">
+                            <xs:minInclusive value="1"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="opcija">
-        <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attribute name="podvuceno" type="xs:boolean"/>
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
-    <xs:complexType name="TPodaci_o_Primaocu">
+    <xs:complexType name="TPrimalac_Zalbe">
         <xs:sequence>
-            <xs:element name="naziv" type="xs:string"/>
+            <xs:element name="naziv" type="xs:string"
+                fixed="Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti"/>
             <xs:element ref="zal:adresa"/>
         </xs:sequence>
     </xs:complexType>
@@ -43,13 +42,15 @@
         <xs:sequence>
             <xs:element name="naziv_organa" type="xs:string"/>
             <xs:element name="razlog_zalbe">
-                <xs:complexType>
-                    <xs:choice>
-                        <xs:element maxOccurs="3" minOccurs="3" ref="zal:opcija"/>
-                    </xs:choice>
-                </xs:complexType>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="nije postupio"/>
+                        <xs:enumeration value="nije postupio u celosti"/>
+                        <xs:enumeration value="u zakonskom roku"/>
+                    </xs:restriction>
+                </xs:simpleType>
             </xs:element>
-            <xs:element name="datum_zahteva" type="xs:string"/>
+            <xs:element name="datum_zahteva" type="xs:date"/>
             <xs:element name="podaci_o_zahtevu_i_info" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<obavestenje xmlns="http://www.ftn.uns.ac.rs/obavestenjecir"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.ftn.uns.ac.rs/obavestenjecir file:/C:/Users/TehnoCentar/Desktop/XML_i_web_servisi/dokumenti/xml%20i%20seme/obavestenjecir.xsd">
+    <naziv_organa>FTN</naziv_organa>
+    <sediste_organa>Novi Sad</sediste_organa>
+    <broj_predmeta>0</broj_predmeta>
+    <datum>2006-05-04</datum>
+    <ime>Marko</ime>
+    <prezime>Markovic</prezime>
+    <naziv>Naziv neki</naziv>
+    <adresa_podnosioca_zahteva>BiH, Rovine 148</adresa_podnosioca_zahteva>
+    <naslov>O B A V E Š T E Nj E  o stavljanju na uvid dokumenta koji sadrži traženu informaciju i o izradi kopije</naslov>
+    <uvid>
+        <godina>2006</godina>
+        <opis_trazene_informacije>Opis trazene informacije i tako to</opis_trazene_informacije>
+        <ime_dana>Ponedeljak</ime_dana>
+        <broj_sati>9</broj_sati>
+        <pocetak_akcije>12:00:00.000</pocetak_akcije>
+        <kraj_akcije>14:00:00.000</kraj_akcije>
+        <naziv_zgrade>Pupinova palata</naziv_zgrade>
+        <naziv_ulice>Fruskogorska</naziv_ulice>
+        <broj_ulice>32</broj_ulice>
+        <broj_kancelarije>2</broj_kancelarije>
+    </uvid>
+    <paragraf broj="broj1">Ispis paragrafa 1</paragraf>
+    <paragraf broj="broj3">Ispis paragrafa 2</paragraf>
+    <iznos_troskova>
+        <kolicina_novca>20</kolicina_novca>
+    </iznos_troskova>
+    <dostavljeno>Arhivi</dostavljeno>
+</obavestenje>

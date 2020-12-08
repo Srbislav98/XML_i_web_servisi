@@ -6,25 +6,25 @@
     <primalac_zalbe>
         <naziv>Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti</naziv>
         <adresa>
-            <mesto>Rovine</mesto>
-            <ulica>Nikola Tesla</ulica>
+            <mesto>mesto0</mesto>
+            <ulica>ulica0</ulica>
             <br_ulice>50</br_ulice>
         </adresa>
     </primalac_zalbe>
     <sadrzaj>
-        <naziv_organa>FTN</naziv_organa>
+        <naziv_organa>naziv_organa0</naziv_organa>
         <razlog_zalbe>nije postupio</razlog_zalbe>
         <datum_zahteva>2006-05-04</datum_zahteva>
-        <podaci_o_zahtevu_i_info>Nije u roku predao podatke o necemu</podaci_o_zahtevu_i_info>
+        <podaci_o_zahtevu_i_info>podaci_o_zahtevu_i_info0</podaci_o_zahtevu_i_info>
     </sadrzaj>
     <podnosilac_zalbe>
-        <ime>Srbislav</ime>
-        <prezime>Vucenovic</prezime>
+        <ime>ime0</ime>
+        <prezime>prezime0</prezime>
         <adresa>
-            <mesto>Gradiska</mesto>
-            <ulica>Jevrejska</ulica>
-            <br_ulice>52</br_ulice>
+            <mesto>mesto1</mesto>
+            <ulica>ulica1</ulica>
+            <br_ulice>50</br_ulice>
         </adresa>
-        <drugi_kontakt_podaci>Tel: 065232211</drugi_kontakt_podaci>
+        <drugi_kontakt_podaci>drugi_kontakt_podaci0</drugi_kontakt_podaci>
     </podnosilac_zalbe>
 </zalbacutanje>
