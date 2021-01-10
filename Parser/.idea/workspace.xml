@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/parser/zalbanaodluku" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607409122660</updated>
-      <workItem from="1607409123812" duration="5864000" />
+      <workItem from="1607409123812" duration="9229000" />
+      <workItem from="1610205194985" duration="545000" />
+      <workItem from="1610297711761" duration="766000" />
     </task>
     <servers />
   </component>
@@ -122,5 +124,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607421290808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607421290808" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1607431400221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607431400221" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1607431400221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607431400221" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1607431400221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607431400221" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1607431400221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607431400221" />
   </component>
 </project>
