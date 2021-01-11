@@ -1,13 +1,11 @@
 package com.tim15.projekat.jaxb;
 
-import java.io.StringReader;
-import java.io.StringWriter;
+import java.io.*;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-
 import org.springframework.stereotype.Component;
 
 @Component
@@ -19,7 +17,21 @@ public class JaxbParser {
         return createdObject;
     }
 
-    public <T> String marshall(Class genericClass,T objecToMarshall) throws JAXBException {
+    public <T> T unmarshallFile(Class genericClass, String path) throws JAXBException {
+        JAXBContext context = JAXBContext.newInstance(genericClass);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        T createdObject = (T) unmarshaller.unmarshal(new File(path));
+        return createdObject;
+    }
+
+    public <T> void marshallFile(Class genericClass,T objectToMarshall, String path) throws JAXBException, FileNotFoundException {
+        JAXBContext context = JAXBContext.newInstance(genericClass);
+        Marshaller marshaller = context.createMarshaller();
+        marshaller.marshal(objectToMarshall, System.out);
+        marshaller.marshal(objectToMarshall, new FileOutputStream(new File(path)));
+    }
+
+    public <T> String marshallString(Class genericClass,T objecToMarshall) throws JAXBException {
         JAXBContext context = JAXBContext.newInstance(genericClass);
         Marshaller marshaller = context.createMarshaller();
         StringWriter sw = new StringWriter();

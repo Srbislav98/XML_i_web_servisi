@@ -7,26 +7,24 @@ import org.w3c.dom.Document;
 import org.xmldb.api.modules.XMLResource;
 
 @Repository
-public class ZalbanaodlukuRepository {
+public class ZalbacutanjecirRepository {
 
     @Autowired
     ExistManager existManager;
 
-    private String collectionId = "/existdb/zalbenaodluku";
+    private String collectionId = "/existdb/zalbecutanje";
 
-    public void saveZalbaFromText(String text, String id) throws Exception {
+    public void saveZalbacutanjecirFromText(String text, String id) throws Exception {
         existManager.storeFromText(collectionId, id , text);
     }
 
-    public void saveZalbaFromFile(String path, String id) throws Exception {
+    public void saveZalbacutanjecirFromFile(String path, String id) throws Exception {
         existManager.store(collectionId, id, path);
     }
 
-    public Document findZalbaById(String id) throws Exception {
+    public Document findZalbacutanjecirById(String id) throws Exception {
         XMLResource xmlResource = existManager.load(collectionId, id);
         Document document = (Document) xmlResource.getContentAsDOM();
         return document;
     }
-
-
 }
