@@ -11,48 +11,51 @@
     </desno>
     <opis_zalbe>
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po albi
-        koju je izjavio AA, zbog nepostupanja Učiteljskog fakulteta u Prizrenu sa privremenim sedištem
-        u Leposaviću, ul. Nemanjina bb, po njegovom zahtevu od <datum_zahteva>16.04.2020.</datum_zahteva> godine za pristup
-        informacijama od javnog značaja, na osnovu člana 35. stav 1. tačka 5. Zakona o slobodnom pristupu
-        informacijama od javnog značaja („Sl. glasnik RS“, br. 120/04, 54/07, 104/09 i 36/10), a u vezi sa
-        članom 4. tačka 22. Zakona o zaštiti podataka o ličnosti („Sl. glasnik RS“, broj 87/18), kao i člana
-        23. i člana 24. stav 4. Zakona o slobodnom pristupu informacijama od javnog značaja i člana 173.
-        stav 2. Zakona o opštem upravnom postupku („Sl. glasnik RS“, br. 18/2016 i 95/2018-autentično
-        tumačenje), donosi 
+        koju je izjavio <zrtva>AA</zrtva>, zbog nepostupanja <optuzeni><naziv_optuzenog>Učiteljskog fakulteta u Prizrenu</naziv_optuzenog>sa privremenim sedištem
+        u <sediste_optuzenog>Leposaviću, ul. Nemanjina bb</sediste_optuzenog></optuzeni> , po njegovom zahtevu od <datum_zahteva>16.04.2020.</datum_zahteva> godine za pristup
+        informacijama od javnog značaja, na osnovu<zakon> člana<clan> 35.</clan> stav<stav> 1.</stav> tačka<tacka> 5.</tacka> <naziv_zakona>Zakona o slobodnom pristupu
+        informacijama od javnog značaja</naziv_zakona> (<naziv_sluzbenog_glasnika>„Sl. glasnik RS“</naziv_sluzbenog_glasnika>, 
+        br.<broj_sl. broj="1"> 120/04</broj_sl.>,<broj_sl. broj="2"> 54/07</broj_sl.>, <broj_sl. broj="3">104/09</broj_sl.> i<broj_sl. broj="4"> 36/10</broj_sl.>)</zakon>, a u vezi sa
+        <zakon>članom<clan> 4.</clan> tačka<tacka> 22.</tacka> <naziv_zakona> Zakona o zaštiti podataka o ličnosti</naziv_zakona> 
+        (<naziv_sluzbenog_glasnika>„Sl. glasnik RS“</naziv_sluzbenog_glasnika>, broj <broj_sl. broj="1">87/18</broj_sl.>)</zakon>, kao i<zakon> člana
+        <clan>23.</clan> i člana <clan>24.</clan> stav<stav> 4.</stav> <naziv_zakona>Zakona o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon> i <zakon>člana <clan>173.</clan>
+        stav <stav>2.</stav> <naziv_zakona>Zakona o opštem upravnom postupku </naziv_zakona>(<naziv_sluzbenog_glasnika>„Sl. glasnik RS“</naziv_sluzbenog_glasnika>, br.<broj_sl. broj="1"> 18/2016</broj_sl.> i 
+        <broj_sl. broj="2">95/2018-autentično tumačenje</broj_sl.>)</zakon>, donosi 
     </opis_zalbe>
     <naslov>
         R E Š E Nj E 
     </naslov>
-    
         <resenje_zalbe>
-            Nalaže se Učiteljskom fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, da
-            bez odlaganja, a najkasnije u roku od pet dana od dana prijema ovog rešenja, obavesti AA, da li
-            poseduje tražene informacije odnosno dokument u kome su iste sadržane, i to: Ugovor o radu koji
-            je kao poslednji potpisan između tog Fakulteta i BB, te da mu, ukoliko takav dokument poseduje
+            Nalaže se<optuzeni><naziv_optuzenog> Učiteljskom fakultetu u Prizrenu</naziv_optuzenog> sa privremenim sedištem u<sediste_optuzenog> Leposaviću</sediste_optuzenog></optuzeni>, da
+            bez odlaganja, a najkasnije u<rok_trajanja_mora_izvrsi_resenje>roku od pet dana od dana prijema ovog rešenja</rok_trajanja_mora_izvrsi_resenje> , obavesti <zrtva>AA</zrtva>, da li
+            poseduje tražene informacije odnosno dokument u kome su iste sadržane, i to: <dokument_koji_se_trazi>Ugovor o radu koji
+            je kao poslednji potpisan između tog Fakulteta i BB</dokument_koji_se_trazi>, te da mu, <operacije_koje_optuzeni_mora_da_izvrsi>ukoliko takav dokument poseduje
             dostavi kopiju istog elektronskom poštom na adresu … ili poštom, s tim što će pre dostavljanja
             zaštititi i učiniti nedostupnim podatke o ličnosti kojima bi se povredilo pravo na privatnost
-            lica na koje se informacije odnose, kao što su: adresa stanovanja, lični matični broj građana, ime
-            oca, radni staž, prosečna ocena studiranja i sl. ukoliko su takvi podaci sadržani u traženom
-            dokumentu. 
-            O izvršenju rešenja Učiteljski fakultet u Prizrenu sa privremenim sedištem u
-            Leposaviću, će obavestiti Poverenika u roku od sedam dana od prijema ovog rešenja.
+            lica na koje se informacije odnose, kao što su: <privatne_informacije_koje_optuzeni_mora_da_zastiti broj="1">adresa stanovanja</privatne_informacije_koje_optuzeni_mora_da_zastiti>, 
+                <privatne_informacije_koje_optuzeni_mora_da_zastiti broj="2">lični matični broj građana</privatne_informacije_koje_optuzeni_mora_da_zastiti>, 
+                <privatne_informacije_koje_optuzeni_mora_da_zastiti broj="3">ime oca</privatne_informacije_koje_optuzeni_mora_da_zastiti>
+                ,<privatne_informacije_koje_optuzeni_mora_da_zastiti broj="4"> radni staž</privatne_informacije_koje_optuzeni_mora_da_zastiti>, 
+                <privatne_informacije_koje_optuzeni_mora_da_zastiti broj="5">prosečna ocena studiranja</privatne_informacije_koje_optuzeni_mora_da_zastiti> i sl. ukoliko su takvi podaci sadržani u traženom
+            dokumentu. </operacije_koje_optuzeni_mora_da_izvrsi>
+            O izvršenju rešenja <optuzeni><naziv_optuzenog>Učiteljski fakultet u Prizrenu</naziv_optuzenog> sa privremenim sedištem u
+                <sediste_optuzenog>Leposaviću</sediste_optuzenog></optuzeni>, će obavestiti Poverenika u <rok_trajanja_provera>roku od sedam dana</rok_trajanja_provera> od prijema ovog rešenja.
         </resenje_zalbe>
-    
     <podnaslov>O b r a z l o ž e nj e</podnaslov>
     <obrazlozenja_zalbe>
         <razlog_podnosenja_zalbe>
-            AA, kao tražilac informacija, izjavio je dana 07.05.2020. godine žalbu Povereniku, zbog
-            nepostupanja Učiteljskog fakulteta u Prizrenu sa privremenim sedištem u Leposaviću po
-            njegovom zahtevu od 16.04.2020. godine za pristup informacijama od javnog značaja i u prilogu
+            <zrtva>AA</zrtva>, kao tražilac informacija, izjavio je dana <datum_zalbe>07.05.2020.</datum_zalbe> godine žalbu Povereniku, zbog
+            nepostupanja <optuzeni><naziv_optuzenog>Učiteljskog fakulteta u Prizrenu</naziv_optuzenog> sa privremenim sedištem u <sediste_optuzenog>Leposaviću</sediste_optuzenog></optuzeni> po
+            njegovom zahtevu od <datum_do_kada_mora_da_se_izvrsi>16.04.2020.</datum_do_kada_mora_da_se_izvrsi> godine za pristup informacijama od javnog značaja i u prilogu
             dostavio kopiju istog.
         </razlog_podnosenja_zalbe>
         <trazenje_odgovora_od_strane_optuzenog>
-            Postupajući po žalbi, Poverenik je dana 11.05.2020. godine uputio istu na izjašnjenje
-            Učiteljskom fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, kao organu vlasti u
-            smislu člana 3. Zakona o slobodnom pristupu informacijama od javnog značaja i zatražio da se
+            Postupajući po žalbi, Poverenik je dana<datum_akcije_poverenika>11.05.2020.</datum_akcije_poverenika> godine uputio istu na izjašnjenje
+            <optuzeni><naziv_optuzenog>Učiteljskom fakultetu u Prizrenu</naziv_optuzenog> sa privremenim sedištem u <sediste_optuzenog>Leposaviću</sediste_optuzenog></optuzeni>, kao organu vlasti u
+            smislu<zakon> člana <clan>3.</clan> <naziv_zakona>Zakona o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon> i <sta_se_trazilo>zatražio da se
             izjasni o navodima žalbe, posebno o razlozima nepostupanja u zakonskom roku po podnetom zahtevu
-            u skladu sa odredbama člana 16. st.1-9. ili st. 10. Zakona, ostavljajući rok od osam dana, povodom
-            čega nije dobio odgovor.
+            u skladu sa odredbama <zakon>člana <clan>16.</clan> st.1-9. ili st. 10. Zakona</zakon>, ostavljajući rok od osam dana, povodom
+            čega nije dobio odgovor</sta_se_trazilo>.
             
         </trazenje_odgovora_od_strane_optuzenog>
         <odluka>
@@ -60,48 +63,48 @@
             rešenja iz sledećih razloga:
         </odluka>
         <dogadjaj>
-            Uvidom u spise predmeta utvrđeno je da je AA, dana 16.04.2020. godine, podneo Učiteljskom
-            fakultetu u Prizrenu sa privremenim sedištem u Leposaviću, zahtev za pristup informacijama
+            Uvidom u spise predmeta utvrđeno je da je <zrtva>AA</zrtva>, dana <datum_izvrsenja>16.04.2020.</datum_izvrsenja> godine, podneo <optuzeni><naziv_optuzenog>Učiteljskom
+            fakultetu u Prizrenu</naziv_optuzenog> sa privremenim sedištem u <sediste_optuzenog>Leposaviću</sediste_optuzenog></optuzeni>, <izvrsenje_resenja>zahtev za pristup informacijama
             od javnog značaja, elektronskom poštom, kojim je tražio informacije od javnog značaja, bliže
-            navedene u stavu I dispozitiva ovog rešenja.
+            navedene u stavu I dispozitiva ovog rešenja</izvrsenje_resenja>.
         </dogadjaj>
         <odgovor_na_dogadjaj>
-            Takođe je uvidom u spise predmeta utvrđeno da po zahtevu žalioca od 16.04.2020. godine,
-            organ vlasti nije postupio, što je bio dužan da učini bez odlaganja, a najkasnije u roku od 15 dana
-            od prijema zahteva te da žalioca, u smislu člana 16. stav 1. Zakona o slobodnom pristupu 
-            informacijama od javnog značaja, obavesti da li poseduje tražene informacije i da mu, ukoliko
+            Takođe je uvidom u spise predmeta utvrđeno da po zahtevu žalioca od <datum_izvrsenja>16.04.2020.</datum_izvrsenja> godine,
+            organ vlasti nije postupio, što je bio dužan da učini bez odlaganja, a najkasnije u roku od <rok_od_prijema_zahteva>15 dana</rok_od_prijema_zahteva>
+            od prijema zahteva te da žalioca, u smislu <zakon>člana <clan>16.</clan> stav <stav>1.</stav> <naziv_zakona>Zakona o slobodnom pristupu 
+            informacijama od javnog značaja</naziv_zakona></zakon>, obavesti da li poseduje tražene informacije i da mu, ukoliko
             iste poseduje, stavi na uvid dokument koji iste sadrži odnosno izda mu ili dostavi kopiju
             dokumenta u kome su tražene informacije sadržane, ili da u suprotnom donese rešenje o odbijanju
-            zahteva, u smislu stava 10. istog člana.
+            zahteva, u smislu<zakon> stava <stav>10.</stav> istog člana</zakon>.
         </odgovor_na_dogadjaj>
    
         <prekrsaj>
-            Imajući u vidu da organ vlasti po zahtevu žalioca od <datum_zahteva>16.04.2020.</datum_zahteva> godine nije postupio u
-            skladu sa navedenim odredbama Zakona o slobodnom pristupu informacijama od javnog značaja, a
+            Imajući u vidu da organ vlasti po zahtevu žalioca od <datum_izvrsenja>16.04.2020.</datum_izvrsenja> godine nije postupio u
+            skladu sa navedenim odredbama<zakon><naziv_zakona> Zakona o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon>, a
             da nije opravdao razloge nepostupanja po podnetom zahtevu, Poverenik je u postupku po žalbi, na
-            osnovu člana 23. i člana 24. st. 1. i 4. Zakona o slobodnom pristupu informacijama od javnog
-            značaja i člana 173. st. 2. Zakona o opštem upravnom postupku, odlučio kao u stavu I dispozitiva
+            osnovu<zakon> člana<clan> 23.</clan> i člana <clan>24.</clan> st.<stav> 1.</stav> i<stav> 4. </stav><naziv_zakona>Zakona o slobodnom pristupu informacijama od javnog
+            značaja</naziv_zakona></zakon> i<zakon> člana<clan> 173.</clan> st.<stav> 2.</stav> <naziv_zakona>Zakona o opštem upravnom postupku</naziv_zakona></zakon>, odlučio kao u stavu I dispozitiva
             ovog rešenja, našavši da je žalba osnovana, odnosno da je nesporno pravo žalioca na tražene
-            informacije u smislu člana 5. Zakona o slobodnom pristupu informacijama od javnog značaja, po
+            informacije u smislu<zakon> člana <clan>5. </clan><naziv_zakona>Zakona o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon>, po
             kome svako ima pravo da mu bude saopšteno da li organ vlasti poseduje ili mu je dostupna određena
             informacija od javnog značaja, kao i da mu se informacija, ukoliko je u posedu organa, učini
             dostupnom, na način kako je to naloženo u stavu I dispozitiva ovog rešenja, što je u skladu sa
-            odredbom člana 12. Zakona o slobodnom pristupu informacijama od javnog značaja, koja predviđa
+            odredbom<zakon> člana <clan>12.</clan> <naziv_zakona>Zakona o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon>, koja predviđa
             mogućnost izdvajanja tražene informacije od javnog značaja od ostalih informacija sadržanih u
             dokumentu u koje organ vlasti nije dužan da tražiocu omogući uvid, jer bi se dostupnošću tim
             informacijama povredilo pravo na privatnost i zaštitu podataka o ličnosti lica na koja se
-            tražene informacije odnose..
+            tražene informacije odnose.
         </prekrsaj>
         <sta_optuzeni_mora_da_uradi>
-            Učiteljski fakultet u Prizrenu sa privremenim sedištem u Leposaviću, je dužan da o
-            izvršenju rešenja iz stava I dispozitiva, obavesti Poverenika u skladu sa članom 24. stav 3. Zakona
-            o slobodnom pristupu informacijama od javnog značaja. 
+            <optuzeni><naziv_optuzenog>Učiteljski fakultet u Prizrenu</naziv_optuzenog> sa privremenim sedištem u <sediste_optuzenog>Leposaviću</sediste_optuzenog></optuzeni>, je dužan da o
+            izvršenju rešenja iz stava I dispozitiva, obavesti Poverenika u skladu sa<zakon> članom <clan>24.</clan> stav <stav>3.</stav> <naziv_zakona>Zakona
+            o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon>. 
         </sta_optuzeni_mora_da_uradi>
         <upustvo>
             Uputstvo o pravnom sredstvu:
-            Protiv ovog rešenja nije dopuštena žalba već se, u skladu sa Zakonom o upravnim
-            sporovima, može pokrenuti upravni spor tužbom Upravnom sudu u Beogradu, u roku od 30 dana od
-            dana prijema rešenja. Taksa na tužbu iznosi 390,00 dinara.
+            Protiv ovog rešenja nije dopuštena žalba već se, u skladu sa<zakon><naziv_zakona> Zakonom o upravnim
+            sporovima</naziv_zakona></zakon>, može pokrenuti upravni spor tužbom Upravnom sudu u Beogradu, u roku od <rok_za_pokretanje_upravnog_spora>30 dana od
+            dana prijema rešenja</rok_za_pokretanje_upravnog_spora>. Taksa na tužbu iznosi <taksa_tuzbe>390,00 dinara</taksa_tuzbe>.
         </upustvo>
     </obrazlozenja_zalbe>
     <fusnota>
