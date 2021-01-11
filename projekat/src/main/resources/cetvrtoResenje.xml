@@ -12,10 +12,10 @@
     <opis_zalbe>
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, i to zamenica
         Poverenika, Stanojla Mandić, po odluci Narodne Skupštine Republike Srbije RS broj 17 od
-        <datum_zahteva>08.04.2013.</datum_zahteva> godine o izboru zamenika Poverenika, u postupku po žalbi AA, izjavljenoj protiv
-        rešenja Privrednog suda u Leskovcu VIII Su.br. 38/2015-9-6 od 31.07.2017. godine, na osnovu člana
-        35. stav 1. tačka 5. i člana 33. stav 5. Zakona o slobodnom pristupu informacijama od javnog značaja
-    </opis_zalbe>
+        <datum_izbora>08.04.2013.</datum_izbora> godine o izboru zamenika Poverenika, u postupku po žalbi <zrtva>AA</zrtva>, izjavljenoj protiv
+        rešenja Privrednog suda u Leskovcu VIII Su.br. <su.br.>38/2015-9-6 </su.br.>od <datum_pokretanja>31.07.2017.</datum_pokretanja> godine, na osnovu <zakon>člana
+            <clan>35.</clan> stav <stav>1.</stav> tačka <tacka>5.</tacka></zakon> i <zakon>člana <clan>33.</clan> stav <stav>5.</stav> <naziv_zakona>Zakona o slobodnom pristupu informacijama od javnog značaja</naziv_zakona></zakon>
+    </opis_zalbe>`
     <fusnota>
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
         Informator o radu 31.08.2020.godine

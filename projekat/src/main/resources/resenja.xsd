@@ -41,8 +41,23 @@
     </xs:complexType>
     <xs:complexType mixed="true" name="TipOpis_zalbe">
         <xs:sequence>
+            <xs:element minOccurs="0" name="datum_izbora">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="zrtva" type="xs:string"/>
-            <xs:element name="optuzeni" type="res:TipOptuzeni"/>
+            <xs:element minOccurs="0" name="su.br." type="xs:string"/>
+            <xs:element minOccurs="0" name="datum_pokretanja">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="optuzeni" type="res:TipOptuzeni" minOccurs="0"/>
             <xs:element minOccurs="0" name="datum_obavestenja">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -50,7 +65,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="datum_zahteva">
+            <xs:element name="datum_zahteva" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
@@ -68,6 +83,13 @@
             <xs:element minOccurs="0" name="dokument_koji_se_trazi" type="xs:string"/>
             <xs:element minOccurs="0" name="operacije_koje_optuzeni_mora_da_izvrsi"
                 type="res:TipOperacijeKojeOptuzeniMoraDaIzvrsi"/>
+            <xs:element minOccurs="0" name="datum_podnetog_zahteva">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="optuzeni" type="res:TipOptuzeni"/>
             <xs:element minOccurs="0" name="datum_obavestenja">
                 <xs:simpleType>
@@ -215,7 +237,7 @@
                 </xs:simpleType>
             </xs:element>
             <xs:element name="optuzeni" type="res:TipOptuzeni"/>
-            <xs:element name="zakon" type="res:TipZakon"/>
+            <xs:element name="zakon" type="res:TipZakon" maxOccurs="unbounded"/>
             <xs:element minOccurs="0" name="sta_se_trazilo" type="res:TipStaSeTrazilo"/>
             <xs:element minOccurs="0" name="datum_odgovora_na_zalbu">
                 <xs:simpleType>
@@ -233,7 +255,14 @@
     </xs:complexType>
     <xs:complexType mixed="true" name="TipDogadjaj">
         <xs:sequence>
-            <xs:element name="zrtva" type="xs:string"/>
+            <xs:element minOccurs="0" name="datum_podnetog_zahteva">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="zrtva" type="xs:string" minOccurs="0"/>
             <xs:element minOccurs="0" name="datum_izvrsenja">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -252,6 +281,13 @@
             </xs:element>
             <xs:element minOccurs="0" name="razlog_zahteva_za_informacije_od_javnog_znacaja"
                 type="res:TipRazlogZahtevaZaInformacijeOdJavnogZnacaja"/>
+            <xs:element minOccurs="0" name="datum_obavestenja">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType mixed="true" name="TipOdgovorNaDogadjaj">
@@ -301,8 +337,8 @@
     </xs:complexType>
     <xs:complexType mixed="true" name="TipStaOptuzeniMoraDaUradi">
         <xs:sequence>
-            <xs:element name="optuzeni" type="res:TipOptuzeni"/>
-            <xs:element name="zakon" type="res:TipZakon"/>
+            <xs:element name="optuzeni" type="res:TipOptuzeni" minOccurs="0"/>
+            <xs:element name="zakon" type="res:TipZakon" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType mixed="true" name="TipUpustvo">
