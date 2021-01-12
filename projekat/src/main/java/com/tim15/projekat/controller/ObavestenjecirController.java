@@ -26,7 +26,7 @@ public class ObavestenjecirController {
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @GetMapping(value = "/getDocument/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/getDocument/{id}")
     public ResponseEntity<Document> getObavestenjeDocument(@PathVariable String id) throws Exception {
         Document document = obavestenjecirService.getObavestenjeDocument(id);
         if(document == null) {

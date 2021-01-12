@@ -17,8 +17,8 @@ public class ZalbanaodlukuController {
     private ZalbanaodlukuService zalbanaodlukuService;
 
     @PostMapping(value = "/addText", consumes = MediaType.TEXT_PLAIN_VALUE)
-    public ResponseEntity<String> addZalbanaodlukuText(@RequestBody TestDTO testDTO) throws Exception {
-        zalbanaodlukuService.addZalbanaodlukuFromText(testDTO.getText());
+    public ResponseEntity<String> addZalbanaodlukuText(@RequestBody String text) throws Exception {
+        zalbanaodlukuService.addZalbanaodlukuFromText(text);
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
@@ -28,7 +28,7 @@ public class ZalbanaodlukuController {
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @GetMapping(value = "/getDocument/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/getDocument/{id}")
     public ResponseEntity<Document> getDocument(@PathVariable String id) throws Exception {
         Document document = zalbanaodlukuService.getDocument(id);
         if(document == null) {

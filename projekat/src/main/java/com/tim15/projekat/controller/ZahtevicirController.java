@@ -26,7 +26,7 @@ public class ZahtevicirController {
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @GetMapping(value = "/getDocument/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/getDocument/{id}")
     public ResponseEntity<Document> getZahtevDocument(@PathVariable String id) throws Exception {
         Document document = zahtevicirService.getZahtevDocument(id);
         if(document == null) {

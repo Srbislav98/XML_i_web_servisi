@@ -26,7 +26,7 @@ public class ResenjaController {
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @GetMapping(value = "/getDocument/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/getDocument/{id}")
     public ResponseEntity<Document> getResenjeDocument(@PathVariable String id) throws Exception {
         Document document = resenjaService.getResenjeDocument(id);
         if(document == null) {

@@ -26,7 +26,7 @@ public class ZalbacutanjecirController {
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @GetMapping(value = "/getDocument/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/getDocument/{id}")
     public ResponseEntity<Document> getZalbacutanjeDocument(@PathVariable String id) throws Exception {
         Document document = zalbacutanjecirService.getZalbacutanjeDocument(id);
         if(document == null) {
