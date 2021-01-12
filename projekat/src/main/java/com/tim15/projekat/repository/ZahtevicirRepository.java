@@ -11,7 +11,7 @@ public class ZahtevicirRepository {
     @Autowired
     ExistManager existManager;
 
-    private String collectionId = "/existdb/zahtevi";
+    private String collectionId = "/db/zahtevi";
 
     public void saveZahtevFromText(String text, String id) throws Exception {
         existManager.storeFromText(collectionId, id , text);

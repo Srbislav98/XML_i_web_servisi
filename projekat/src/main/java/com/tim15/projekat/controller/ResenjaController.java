@@ -1,6 +1,5 @@
 package com.tim15.projekat.controller;
 
-import com.tim15.projekat.dto.TestDTO;
 import com.tim15.projekat.service.ResenjaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,13 +14,13 @@ public class ResenjaController {
     @Autowired
     private ResenjaService resenjaService;
 
-    @PostMapping(value = "/addText", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> addResenjeText(@RequestBody TestDTO testDTO) throws Exception {
-        resenjaService.addResenjeFromText(testDTO.getText());
+    @PostMapping(value = "/addText", consumes = MediaType.TEXT_PLAIN_VALUE)
+    public ResponseEntity<String> addResenjeText(@RequestBody String text) throws Exception {
+        resenjaService.addResenjeFromText(text);
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @PostMapping(value = "/addFile", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/addFile", consumes = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> addResenjeFile(@RequestBody String path) throws Exception {
         resenjaService.addResenjeFromFile(path);
         return new ResponseEntity<String>("Done", HttpStatus.OK);

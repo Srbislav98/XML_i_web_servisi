@@ -12,7 +12,7 @@ public class ZalbanaodlukuRepository {
     @Autowired
     ExistManager existManager;
 
-    private String collectionId = "/existdb/zalbenaodluku";
+    private String collectionId = "/db/zalbenaodluku";
 
     public void saveZalbaFromText(String text, String id) throws Exception {
         existManager.storeFromText(collectionId, id , text);

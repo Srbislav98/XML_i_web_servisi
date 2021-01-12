@@ -1,6 +1,5 @@
 package com.tim15.projekat.controller;
 
-import com.tim15.projekat.dto.TestDTO;
 import com.tim15.projekat.service.ZahtevicirService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,13 +14,13 @@ public class ZahtevicirController {
     @Autowired
     private ZahtevicirService zahtevicirService;
 
-    @PostMapping(value = "/addText", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> addZahtevText(@RequestBody TestDTO testDTO) throws Exception {
-        zahtevicirService.addZahtevFromText(testDTO.getText());
+    @PostMapping(value = "/addText", consumes = MediaType.TEXT_PLAIN_VALUE)
+    public ResponseEntity<String> addZahtevText(@RequestBody String text) throws Exception {
+        zahtevicirService.addZahtevFromText(text);
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @PostMapping(value = "/addFile", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/addFile", consumes = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> addZahtevFile(@RequestBody String path) throws Exception {
         zahtevicirService.addZahtevFromFile(path);
         return new ResponseEntity<String>("Done", HttpStatus.OK);

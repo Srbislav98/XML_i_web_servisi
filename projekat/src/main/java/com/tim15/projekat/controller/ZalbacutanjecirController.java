@@ -1,6 +1,5 @@
 package com.tim15.projekat.controller;
 
-import com.tim15.projekat.dto.TestDTO;
 import com.tim15.projekat.service.ZalbacutanjecirService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,13 +14,13 @@ public class ZalbacutanjecirController {
     @Autowired
     private ZalbacutanjecirService zalbacutanjecirService;
 
-    @PostMapping(value = "/addText", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> addZalbacutanjeText(@RequestBody TestDTO testDTO) throws Exception {
-        zalbacutanjecirService.addZalbacutanjeFromText(testDTO.getText());
+    @PostMapping(value = "/addText", consumes = MediaType.TEXT_PLAIN_VALUE)
+    public ResponseEntity<String> addZalbacutanjeText(@RequestBody String text) throws Exception {
+        zalbacutanjecirService.addZalbacutanjeFromText(text);
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @PostMapping(value = "/addFile", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/addFile", consumes = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> addZalbacutanjeFile(@RequestBody String path) throws Exception {
         zalbacutanjecirService.addZalbacutanjeFromFile(path);
         return new ResponseEntity<String>("Done", HttpStatus.OK);

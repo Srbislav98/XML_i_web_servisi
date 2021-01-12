@@ -1,6 +1,5 @@
 package com.tim15.projekat.controller;
 
-import com.tim15.projekat.dto.TestDTO;
 import com.tim15.projekat.service.ObavestenjecirService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,13 +14,13 @@ public class ObavestenjecirController {
     @Autowired
     private ObavestenjecirService obavestenjecirService;
 
-    @PostMapping(value = "/addText", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> addObavestenjeText(@RequestBody TestDTO testDTO) throws Exception {
-        obavestenjecirService.addObavestenjeFromText(testDTO.getText());
+    @PostMapping(value = "/addText", consumes = MediaType.TEXT_PLAIN_VALUE)
+    public ResponseEntity<String> addObavestenjeText(@RequestBody String text) throws Exception {
+        obavestenjecirService.addObavestenjeFromText(text);
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @PostMapping(value = "/addFile", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/addFile", consumes = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> addObavestenjeFile(@RequestBody String path) throws Exception {
         obavestenjecirService.addObavestenjeFromFile(path);
         return new ResponseEntity<String>("Done", HttpStatus.OK);

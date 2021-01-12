@@ -16,13 +16,13 @@ public class ZalbanaodlukuController {
     @Autowired
     private ZalbanaodlukuService zalbanaodlukuService;
 
-    @PostMapping(value = "/addText", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/addText", consumes = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> addZalbanaodlukuText(@RequestBody TestDTO testDTO) throws Exception {
         zalbanaodlukuService.addZalbanaodlukuFromText(testDTO.getText());
         return new ResponseEntity<String>("Done", HttpStatus.OK);
     }
 
-    @PostMapping(value = "/addFile", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/addFile", consumes = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> addZalbanaodlukuFile(@RequestBody String path) throws Exception {
         zalbanaodlukuService.addZalbanaodlukuFromFile(path);
         return new ResponseEntity<String>("Done", HttpStatus.OK);

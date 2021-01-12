@@ -11,7 +11,7 @@ public class ResenjaRepository {
     @Autowired
     ExistManager existManager;
 
-    private String collectionId = "/existdb/resenja";
+    private String collectionId = "/db/resenja";
 
     public void saveResenjeFromText(String text, String id) throws Exception {
         existManager.storeFromText(collectionId, id , text);
