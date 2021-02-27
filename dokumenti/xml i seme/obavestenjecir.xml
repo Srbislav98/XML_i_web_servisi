@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <obavestenje xmlns="http://www.ftn.uns.ac.rs/obavestenjecir"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.ftn.uns.ac.rs/obavestenjecir file:obavestenjecir.xsd">
-    <naziv_organa></naziv_organa>
-    <sediste_organa></sediste_organa>
+    xsi:schemaLocation="http://www.ftn.uns.ac.rs/obavestenjecir file:obavestenjecir.xsd"
+    xmlns:pred="http://www.ftn.uns.ac.rs/rdf/examples/predicate/"
+    about="http://www.ftn.uns.ac.rs/rdf/obavestenjecir">
+    <naziv_organa property="pred:naziv" datatype="xs:string"></naziv_organa>
+    <sediste_organa property="pred:sediste" datatype="xs:string"></sediste_organa>
     <broj_predmeta xsi:nil = "true"></broj_predmeta>   
-    <datum xsi:nil = "true"></datum>
-    <ime></ime>
-    <prezime></prezime>
-    <naziv></naziv>
-    <adresa_podnosioca_zahteva></adresa_podnosioca_zahteva>
+    <datum xsi:nil = "true" property="pred:datum" datatype="xs:date"></datum>
+    <podnosilac_zahteva >
+        <ime property="pred:ime" datatype="xs:string"></ime>
+        <prezime property="pred:prezime" datatype="xs:string"></prezime>
+        <naziv></naziv>
+        <adresa_podnosioca_zahteva property="pred:adresa" datatype="xs:string"></adresa_podnosioca_zahteva>
+    </podnosilac_zahteva>
     
     <naslov>
         O B A V E Š T E Nj E
@@ -23,12 +27,12 @@
         u prostorijama organa u <naziv_zgrade></naziv_zgrade> ul. <naziv_ulice></naziv_ulice> br. <broj_ulice xsi:nil = "true"></broj_ulice> kancelarija br. <broj_kancelarije xsi:nil = "true"></broj_kancelarije>
         možete izvršiti uvid u dokument/e u kome je sadržana tražena informacija. 
     </uvid>
-    <paragraf broj="1">
+    <paragraf>
         Tom prilikom, na vaš zahtev, može vam se izdati i kopija dokumenta sa traženom informacijom.
     </paragraf>
-    <paragraf broj="2">
+    <troskovi_detaljno>
         Troškovi su utvrđeni Uredbom Vlade Republike Srbije („Sl. glasnik RS“, br. 8/06), i to: kopija strane A4 formata iznosi 3 dinara, A3 formata 6 dinara, CD 35 dinara, diskete 20 dinara, DVD 40 dinara, audio-kaseta – 150 dinara, video-kaseta 300 dinara, pretvaranje jedne strane dokumenta iz fizičkog u elektronski oblik – 30 dinara.
-    </paragraf>
+    </troskovi_detaljno>
     <iznos_troskova>
         Iznos ukupnih troškova izrade kopije dokumenta po vašem zahtevu iznosi <kolicina_novca xsi:nil = "true"></kolicina_novca> dinara i uplaćuje se na žiro-račun Budžeta Republike Srbije br. 840-742328-843-30, s pozivom na broj 97 – oznaka šifre opštine/grada gde se nalazi organ vlasti (iz Pravilnika o uslovima i načinu vođenja računa – „Sl. glasnik RS“, 20/07... 40/10). 
     </iznos_troskova>

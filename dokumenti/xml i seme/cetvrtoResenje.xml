@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:resenja.xsd">
     Rešenje – poništava se:
-    <levo>
-        <broj_zalbe>071-01-2781/2017-03</broj_zalbe>
+    <levo about="http://www.ftn.uns.ac.rs/rdf/resenje">
+        <broj_zalbe property="pred:brojZalbe" datatype="xs:string">071-01-2781/2017-03</broj_zalbe>
     </levo>
-    <desno>
-        <datum_zalbe>22.01.2019.</datum_zalbe>
+    <desno about="http://www.ftn.uns.ac.rs/rdf/resenje">
+        <datum_zalbe property="pred:datumZalbe" datatype="xs:string">22.01.2019.</datum_zalbe>
     </desno>
     <opis_zalbe>
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, i to zamenica

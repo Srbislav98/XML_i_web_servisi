@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resenje xmlns="http://www.ftn.uns.ac.rs/resenja"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:resenja.xsd">
+    xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:resenja.xsd"
+    xmlns:pred="http://www.ftn.uns.ac.rs/rdf/examples/predicate/">
     Rešenje kada je žalba osnovana – nalaže se:
-    <levo>
-        <broj_zalbe>071-01-1114/2020-03</broj_zalbe>
+    <levo about="http://www.ftn.uns.ac.rs/rdf/resenje">
+        <broj_zalbe property="pred:brojZalbe" datatype="xs:string">071-01-1114/2020-03</broj_zalbe>
     </levo>
-    <desno>
-        <datum_zalbe>09.06.2020.</datum_zalbe>
+    <desno about="http://www.ftn.uns.ac.rs/rdf/resenje">
+        <datum_zalbe property="pred:datumZalbe" datatype="xs:string">09.06.2020.</datum_zalbe>
     </desno>
     <opis_zalbe>
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po albi
-        koju je izjavio <zrtva>AA</zrtva>, zbog nepostupanja <optuzeni><naziv_optuzenog>Učiteljskog fakulteta u Prizrenu</naziv_optuzenog>sa privremenim sedištem
-        u <sediste_optuzenog>Leposaviću, ul. Nemanjina bb</sediste_optuzenog></optuzeni> , po njegovom zahtevu od <datum_zahteva>16.04.2020.</datum_zahteva> godine za pristup
+        koju je izjavio <zrtva>AA</zrtva>, zbog nepostupanja <optuzeni about="http://www.ftn.uns.ac.rs/rdf/resenje"><naziv_optuzenog property="pred:nazivOptuzenog" datatype="xs:string">Učiteljskog fakulteta u Prizrenu</naziv_optuzenog>sa privremenim sedištem
+            u <sediste_optuzenog property="pred:sedisteOptuzenog" datatype="xs:string">Leposaviću, ul. Nemanjina bb</sediste_optuzenog></optuzeni> , po njegovom zahtevu od <datum_zahteva>16.04.2020.</datum_zahteva> godine za pristup
         informacijama od javnog značaja, na osnovu<zakon> člana<clan> 35.</clan> stav<stav> 1.</stav> tačka<tacka> 5.</tacka> <naziv_zakona>Zakona o slobodnom pristupu
         informacijama od javnog značaja</naziv_zakona> (<naziv_sluzbenog_glasnika>„Sl. glasnik RS“</naziv_sluzbenog_glasnika>, 
         br.<broj_sl. broj="1"> 120/04</broj_sl.>,<broj_sl. broj="2"> 54/07</broj_sl.>, <broj_sl. broj="3">104/09</broj_sl.> i<broj_sl. broj="4"> 36/10</broj_sl.>)</zakon>, a u vezi sa
@@ -111,9 +112,9 @@
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti
         Informator o radu 31.08.2020.godine
     </fusnota>
-    <poverenik>
+    <poverenik about="http://www.ftn.uns.ac.rs/rdf/resenje">
         POVERENIK
-        <ime_poverenika>
+        <ime_poverenika property="pred:imePoverenika" datatype="xs:string">
             Milan Marinović 
         </ime_poverenika>
     </poverenik>

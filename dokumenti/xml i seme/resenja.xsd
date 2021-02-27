@@ -5,37 +5,67 @@
     <xs:element name="resenje">
         <xs:complexType mixed="true">
             <xs:sequence>
-                <xs:element name="levo" type="res:TipLevo"/>
-                <xs:element name="desno" type="res:TipDesno"/>
+                <xs:element name="levo">
+                    <xs:complexType>
+                        <xs:complexContent>
+                            <xs:extension base="res:TipLevo">
+                                <xs:attribute name="about" type="xs:string"/>
+                            </xs:extension>
+                        </xs:complexContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="desno">
+                    <xs:complexType>
+                        <xs:complexContent>
+                            <xs:extension base="res:TipDesno">
+                                <xs:attribute name="about" type="xs:string"/>
+                            </xs:extension>
+                        </xs:complexContent>
+                    </xs:complexType>
+                </xs:element>
                 <xs:element name="opis_zalbe" type="res:TipOpis_zalbe"/>
                 <xs:element name="naslov" type="xs:string" minOccurs="0"/>
                 <xs:element name="resenje_zalbe" type="res:TipResenjeZalbe" minOccurs="0"/>
                 <xs:element name="podnaslov" type="xs:string" minOccurs="0"/>
                 <xs:element name="obrazlozenja_zalbe" type="res:TipObrazlozenja_zalbe" minOccurs="0"/>
                 <xs:element name="fusnota" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
-                <xs:element name="poverenik" type="res:TipPoverenik" minOccurs="0"/>
+                <xs:element name="poverenik" minOccurs="0">
+                    <xs:complexType>
+                        <xs:complexContent>
+                            <xs:extension base="res:TipPoverenik">
+                                <xs:attribute name="about" type="xs:string"/>
+                            </xs:extension>
+                        </xs:complexContent>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:complexType name="TipLevo">
         <xs:sequence>
             <xs:element name="broj_zalbe">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="\d{3}-\d{2}-\d{4}/\d{4}-\d{2}"/>
-                    </xs:restriction>
-                </xs:simpleType>
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="property" type="xs:string"/>
+                            <xs:attribute name="datatype" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="TipDesno">
         <xs:sequence>
             <xs:element name="datum_zalbe">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="\d{2}[.]\d{2}[.]\d{4}."/>
-                    </xs:restriction>
-                </xs:simpleType>
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="property" type="xs:string"/>
+                            <xs:attribute name="datatype" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
@@ -57,7 +87,15 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="optuzeni" type="res:TipOptuzeni" minOccurs="0"/>
+            <xs:element name="optuzeni" minOccurs="0">
+                <xs:complexType>
+                    <xs:complexContent>
+                        <xs:extension base="res:TipOptuzeni">
+                            <xs:attribute name="about" type="xs:string"/>
+                        </xs:extension>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
             <xs:element minOccurs="0" name="datum_obavestenja">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -151,7 +189,16 @@
     </xs:complexType>
     <xs:complexType mixed="true" name="TipPoverenik">
         <xs:sequence>
-            <xs:element name="ime_poverenika" type="xs:string"/>
+            <xs:element name="ime_poverenika">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="property" type="xs:string"/>
+                            <xs:attribute name="datatype" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType mixed="true" name="TipZakon">
@@ -174,9 +221,36 @@
     </xs:complexType>
     <xs:complexType mixed="true" name="TipOptuzeni">
         <xs:sequence>
-            <xs:element name="naziv_optuzenog" type="xs:string"/>
-            <xs:element name="sediste_optuzenog" type="xs:string"/>
-            <xs:element minOccurs="0" name="broj_obavestenja" type="xs:string"/>
+            <xs:element name="naziv_optuzenog">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="property" type="xs:string"/>
+                            <xs:attribute name="datatype" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sediste_optuzenog">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="property" type="xs:string"/>
+                            <xs:attribute name="datatype" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="broj_obavestenja">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="property" type="xs:string"/>
+                            <xs:attribute name="datatype" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType mixed="true" name="TipOperacijeKojeOptuzeniMoraDaIzvrsi">
