@@ -1,4 +1,4 @@
-package com.poverenik.poverenik.controller;
+/*package com.poverenik.poverenik.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -56,3 +56,4 @@ public class XMLController {
         return new ResponseEntity<>(output, HttpStatus.OK);
     }
 }
+*/

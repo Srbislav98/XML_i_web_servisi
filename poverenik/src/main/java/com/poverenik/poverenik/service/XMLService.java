@@ -1,4 +1,4 @@
-package com.poverenik.poverenik.service;
+/*package com.poverenik.poverenik.service;
 
 import javax.xml.bind.JAXBContext;
 
@@ -89,3 +89,4 @@ public class XMLService {
     }
 
 }
+*/
