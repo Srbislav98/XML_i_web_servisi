@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { XonomyService } from '../xonomyObavestenje.service';
+//import { XonomyService } from '../xonomyObavestenje.service';
 
 declare const Xonomy: any;
 
@@ -19,8 +19,34 @@ export class ObavestenjeCreateComponent implements OnInit {
 
   ngAfterViewInit(){
     let element = document.getElementById("cObavestenje");
-    let specifikacija = this.XonomyService.
-    Xonomy.render("<obv>Obavestenje</obv>", element, {})
+    //let specifikacija = this.XonomyService.
+    let dsa = {
+      elements: {
+        "obavestenje":{
+          "naziv_organa":{},
+          "sediste_organa":{},
+          "broj_predmeta":{},
+          "datum":{},
+  
+          "podnosilac_zahteva":{
+              "ime":{},
+              "prezime":{},
+              "naziv":{},
+              "adresa_podnosioca_zahteva":{},
+          },
+  
+          "naslov":{},
+  
+          "uvid":{
+              "godina":{},
+              "opis_trazene_informacije":{},
+              "ime_dana":{},
+              "broj_sati":{},
+          },
+        },
+      }
+    };
+    Xonomy.render(dsa, element, {})
   }
 
 }
