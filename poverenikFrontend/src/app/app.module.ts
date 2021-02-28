@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ResenjeUnosComponent } from './resenje-unos/resenje-unos.component';
+import { ResenjeCreateComponent } from './resenje-create/resenje-create.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResenjeUnosComponent
+    ResenjeCreateComponent
   ],
   imports: [
     BrowserModule,

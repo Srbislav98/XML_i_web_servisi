@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResenjeUnosComponent } from './resenje-unos.component';
+import { ResenjeCreateComponent } from './resenje-create.component';
 
-describe('ResenjeUnosComponent', () => {
-  let component: ResenjeUnosComponent;
-  let fixture: ComponentFixture<ResenjeUnosComponent>;
+describe('ResenjeCreateComponent', () => {
+  let component: ResenjeCreateComponent;
+  let fixture: ComponentFixture<ResenjeCreateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ResenjeUnosComponent ]
+      declarations: [ ResenjeCreateComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ResenjeUnosComponent);
+    fixture = TestBed.createComponent(ResenjeCreateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
