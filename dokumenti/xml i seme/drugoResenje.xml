@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:resenja.xsd"
     xmlns:pred="http://www.ftn.uns.ac.rs/rdf/examples/predicate/">
-    Rešenje – odbija se kao neosnovana:
+    <odluka about="http://www.ftn.uns.ac.rs/rdf/resenje" property="pred:odluka" datatype="xs:string">Rešenje – odbija se kao neosnovana:</odluka>
     <levo about="http://www.ftn.uns.ac.rs/rdf/resenje">
         <broj_zalbe property="pred:brojZalbe" datatype="xs:string">071-01-1061/2020-03</broj_zalbe>
     </levo>

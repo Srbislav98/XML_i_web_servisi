@@ -2,7 +2,7 @@
 <resenje xmlns="http://www.ftn.uns.ac.rs/resenja"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.ftn.uns.ac.rs/resenja file:resenja.xsd">
-    Rešenje – poništava se:
+    <odluka about="http://www.ftn.uns.ac.rs/rdf/resenje" property="pred:odluka" datatype="xs:string">Rešenje – poništava se:</odluka>
     <levo about="http://www.ftn.uns.ac.rs/rdf/resenje">
         <broj_zalbe property="pred:brojZalbe" datatype="xs:string">071-01-2781/2017-03</broj_zalbe>
     </levo>

@@ -5,6 +5,17 @@
     <xs:element name="resenje">
         <xs:complexType mixed="true">
             <xs:sequence>
+                <xs:element name="odluka">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="about" type="xs:string"/>
+                                <xs:attribute name="property" type="xs:string"/>
+                                <xs:attribute name="datatype" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
                 <xs:element name="levo">
                     <xs:complexType>
                         <xs:complexContent>
