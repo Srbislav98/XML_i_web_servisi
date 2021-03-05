@@ -1,5 +1,6 @@
 package com.poverenik.poverenik.controller;
 
+import com.poverenik.poverenik.dto.XMLDto;
 import com.poverenik.poverenik.service.ResenjaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,6 +11,7 @@ import org.w3c.dom.Document;
 
 @RestController
 @RequestMapping(value = "api/resenja", produces = MediaType.APPLICATION_JSON_VALUE)
+@CrossOrigin
 public class ResenjaController {
     @Autowired
     private ResenjaService resenjaService;
@@ -33,5 +35,13 @@ public class ResenjaController {
             return  new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(document, HttpStatus.OK);
+    }
+
+    @PostMapping(value = "/xonomy", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<String> addResenjeFrontend(@RequestBody XMLDto entitet) throws Exception {
+
+        resenjaService.addResenjeFromText(entitet.getText());
+        return new ResponseEntity<String>("Works", HttpStatus.OK);
+
     }
 }

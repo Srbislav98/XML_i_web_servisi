@@ -1,6 +1,8 @@
+import { ResenjeService } from './../SERVICE/resenje.service';
 import { Router } from '@angular/router';
 import { XonomyService } from './../SERVICE/xonomyResenje.service';
 import { Component, OnInit } from '@angular/core';
+import { Resenje } from '../MODEL/Resenje';
 
 declare const Xonomy: any;
 @Component({
@@ -10,7 +12,9 @@ declare const Xonomy: any;
 })
 export class ResenjeCreateComponent implements OnInit {
 
-  constructor(private xonomyService: XonomyService, private router: Router) { }
+  constructor(private xonomyService: XonomyService,
+     private router: Router,
+     private resenjeService: ResenjeService) { }
 
   ngOnInit(): void {
   }
@@ -37,7 +41,14 @@ export class ResenjeCreateComponent implements OnInit {
   }
 
   send(){
-
+    let text = Xonomy.harvest();
+    const resenje = new Resenje("");
+    resenje.text = text;
+    this.resenjeService.sendXml(resenje).subscribe(
+      res=>{
+        this.router.navigate(['']);
+      }
+    )
   }
 
   natrag(){
