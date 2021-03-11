@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { XonomyService } from './../SERVICE/xonomyObavestenje.service';
 //import { XonomyService } from '../xonomyObavestenje.service';
 
 declare const Xonomy: any;
@@ -10,7 +12,7 @@ declare const Xonomy: any;
 })
 export class ObavestenjeCreateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private xonomyService: XonomyService, private router: Router) { }
 
   //private let cObavestenje:HTMLElement;
 
@@ -19,34 +21,42 @@ export class ObavestenjeCreateComponent implements OnInit {
 
   ngAfterViewInit(){
     let element = document.getElementById("cObavestenje");
-    //let specifikacija = this.XonomyService.
-    let dsa = {
-      elements: {
-        "obavestenje":{
-          "naziv_organa":{},
-          "sediste_organa":{},
-          "broj_predmeta":{},
-          "datum":{},
-  
-          "podnosilac_zahteva":{
-              "ime":{},
-              "prezime":{},
-              "naziv":{},
-              "adresa_podnosioca_zahteva":{},
-          },
-  
-          "naslov":{},
-  
-          "uvid":{
-              "godina":{},
-              "opis_trazene_informacije":{},
-              "ime_dana":{},
-              "broj_sati":{},
-          },
-        },
-      }
-    };
-    Xonomy.render(dsa, element, {})
+    let specifikacija = this.xonomyService.ObavestenjeSpecification;
+    let dsa =  '' +
+    '<obavestenje xmlns="http://www.ftn.uns.ac.rs/obavestenjecir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ftn.uns.ac.rs/obavestenjecir file:obavestenjecir.xsd" xmlns:pred="http://www.ftn.uns.ac.rs/rdf/examples/predicate/" about="http://www.ftn.uns.ac.rs/rdf/obavestenjecir">' +
+        '<naziv_organa property="pred:naziv" datatype="xs:string"> </naziv_organa>' +
+        '<sediste_organa property="pred:sediste" datatype="xs:string"> </sediste_organa>' +
+        '<broj_predmeta property="pred:sediste" datatype="xs:string"> </broj_predmeta>' +
+        '<datum xsi:nil = "true" property="pred:datum" datatype="xs:date"> </datum>' +
+
+        '<podnosilac_zahteva>' +
+            '<ime property="pred:ime" datatype="xs:string"> </ime>' +
+            '<prezime property="pred:prezime" datatype="xs:string"> </prezime>' +
+            '<naziv> </naziv>' +
+            '<adresa_podnosioca_zahteva property="pred:adresa" datatype="xs:string"> </adresa_podnosioca_zahteva>' +
+        '</podnosilac_zahteva>' +
+
+        '<naslov> </naslov>' +
+        '<uvid> </uvid>' +
+        '<paragraf> </paragraf>' +
+        '<troskovi_detaljno> </troskovi_detaljno>' +
+        '<iznos_troskova> </iznos_troskova>' +
+
+        '<dostavljeno>' +
+            '<kojem_M._P._dostavlja> </kojem_M._P._dostavlja>' +
+            '<arhiva> </arhiva>' +
+        '</dostavljeno>' +
+    '</obavestenje>';
+    
+    Xonomy.render(dsa, element, specifikacija)//{})
+  }
+
+  send(){
+    //TODO
+  }
+
+  nazad(){
+    this.router.navigate(['']);
   }
 
 }
