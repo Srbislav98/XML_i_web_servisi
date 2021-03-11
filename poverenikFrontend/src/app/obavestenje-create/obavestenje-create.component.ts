@@ -37,9 +37,22 @@ export class ObavestenjeCreateComponent implements OnInit {
         '</podnosilac_zahteva>' +
 
         '<naslov> </naslov>' +
-        '<uvid> </uvid>' +
+        '<uvid>' +
+            '<godina> </godina>' +
+            '<opis_trazene_informacije> </opis_trazene_informacije>' +
+            '<ime_dana> </ime_dana>' +
+            '<broj_sati> </broj_sati>' +
+            '<pocetak_akcije> </pocetak_akcije>' +
+            '<kraj_akcije> </kraj_akcije>' +
+            '<naziv_zgrade> </naziv_zgrade>' +
+            '<naziv_ulice> </naziv_ulice>' +
+            '<broj_ulice> </broj_ulice>' +
+            '<broj_kanselarije> </broj_kanselarije>' +
+        '</uvid>' +
         '<paragraf> </paragraf>' +
-        '<troskovi_detaljno> </troskovi_detaljno>' +
+        '<troskovi_detaljno>' +
+            '<kolicina_novca> </kolicina_novca>' +
+        '</troskovi_detaljno>' +
         '<iznos_troskova> </iznos_troskova>' +
 
         '<dostavljeno>' +

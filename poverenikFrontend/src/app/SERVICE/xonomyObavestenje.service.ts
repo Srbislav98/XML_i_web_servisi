@@ -69,11 +69,7 @@ export class XonomyService {
         asker: Xonomy.askString,
       },
 
-      "uvid":{
-        hasText: true,
-        oneliner: true,
-        asker: Xonomy.askNumber,
-      },
+      "uvid":{ },
         "godina":{
           hasText: true,
           oneliner: true,
@@ -112,7 +108,7 @@ export class XonomyService {
 
         "troskovi_detaljno":{
           hasText: true,
-          oneliner: true,
+          oneliner: false,
           asker: Xonomy.askNumber,
         },
 
@@ -129,6 +125,49 @@ export class XonomyService {
         },
 
         "arhiva":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askNumber,
+        },
+
+        "kolicina_novca":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askNumber,
+        },
+
+        
+        "pocetak_akcije":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askTime,
+        },
+
+        "kraj_akcije":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askTime,
+        },
+     
+        "naziv_zgrade":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askString,
+        },
+
+        "naziv_ulice":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askString,
+        },
+        
+        "broj_ulice":{
+          hasText: true,
+          oneliner: true,
+          asker: Xonomy.askNumber,
+        },
+
+        "broj_kanselarije":{
           hasText: true,
           oneliner: true,
           asker: Xonomy.askNumber,
