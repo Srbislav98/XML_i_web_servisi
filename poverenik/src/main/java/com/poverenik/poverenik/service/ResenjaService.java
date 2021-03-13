@@ -30,8 +30,8 @@ public class ResenjaService {
         NodeList ndBroj = document.getElementsByTagName("broj_zalbe");
         String docId = ndBroj.item(0).getTextContent();
         resenjaRepository.saveResenjeFromText(text, docId);
-        metadataExtractor.extractMetadata(text);
-        FusekiWriterExample.saveRDF();
+        metadataExtractor.extractMetadataResenje(text);
+        FusekiWriterExample.saveRDFResenje();
     }
 
     public void addResenjeFromFile(String path) throws Exception {

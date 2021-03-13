@@ -13,7 +13,7 @@
     <opis_zalbe >
         Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti, u postupku po
         žalbi koju je izjavio <zrtva>AA</zrtva>, protiv <optuzeni about="http://www.ftn.uns.ac.rs/rdf/resenje">obaveštenja <naziv_optuzenog property="pred:nazivOptuzenog" datatype="xs:string">Ministarstva za rad, zapošljavanje, boračka i
-        socijalna pitanja Republike Srbije</naziv_optuzenog> u <sediste_optuzenog property="pred:sedisteOptuzenog" datatype="xs:string">Beogradu</sediste_optuzenog> broj:<broj_obavestenja property="pred:brojObavestenja" datatype="xs:string"> 07-00-00019/2020-01</broj_obavestenja></optuzeni> od <datum_obavestenja>01.04.2020.</datum_obavestenja> godine,
+        socijalna pitanja Republike Srbije</naziv_optuzenog> u <sediste_optuzenog property="pred:sedisteOptuzenog" datatype="xs:string">Beogradu</sediste_optuzenog> broj:<broj_obavestenja > 07-00-00019/2020-01</broj_obavestenja></optuzeni> od <datum_obavestenja>01.04.2020.</datum_obavestenja> godine,
         zbog nedobijanja traženih informacija po njegovom zahtevu za pristup informacijama od javnog
         značaja podnetom <datum_zahteva>12.03.2020.</datum_zahteva> godine, na osnovu<zakon> člana <clan>35.</clan> stav <stav>1.</stav> tačka <tacka>5.</tacka><naziv_zakona> Zakona o slobodnom
         pristupu informacijama od javnog značaja</naziv_zakona> (<naziv_sluzbenog_glasnika>„Službeni glasnik RS”</naziv_sluzbenog_glasnika> br. <broj_sl. broj="1">120/04</broj_sl.>, <broj_sl. broj="2">54/07</broj_sl.>, <broj_sl. broj="3">104/09</broj_sl.> i

@@ -216,7 +216,7 @@ export class XonomyService {
           {
             caption: 'Add <broj_obavestenja>',
             action: Xonomy.newElementChild,
-            actionParameter:'<broj_obavestenja property="pred:brojObavestenja" datatype="xs:string"> </broj_obavestenja>',
+            actionParameter:'<broj_obavestenja> </broj_obavestenja>',
             hideIf: function(jsElement: { hasChildElement: (arg0: string) => any; }) {
               return jsElement.hasChildElement('broj_obavestenja');
             }
@@ -385,7 +385,10 @@ export class XonomyService {
           {
             caption: 'Add <optuzeni>',
               action: Xonomy.newElementChild,
-              actionParameter:'<optuzeni> </optuzeni>',
+              actionParameter:'<optuzeni>'+
+              '<naziv_optuzenog property="pred:nazivOptuzenog" datatype="xs:string"> </naziv_optuzenog>'+
+              '<sediste_optuzenog property="pred:sedisteOptuzenog" datatype="xs:string"> </sediste_optuzenog>'+ 
+              '</optuzeni>',
               hideIf: function(jsElement: { hasChildElement: (arg0: string) => any; }) {
                 return jsElement.hasChildElement('optuzeni');
               }
@@ -976,7 +979,10 @@ export class XonomyService {
           {
             caption: 'Add <optuzeni>',
             action: Xonomy.newElementChild,
-            actionParameter:'<optuzeni> </optuzeni>',
+            actionParameter:'<optuzeni>'+
+            '<naziv_optuzenog property="pred:nazivOptuzenog" datatype="xs:string"> </naziv_optuzenog>'+
+            '<sediste_optuzenog property="pred:sedisteOptuzenog" datatype="xs:string"> </sediste_optuzenog>'+ 
+            '</optuzeni>',
             hideIf: function(jsElement: { hasChildElement: (arg0: string) => any; }) {
               return jsElement.hasChildElement('optuzeni');
             }

@@ -1,0 +1,14 @@
+SELECT * FROM <http://localhost:8081/fuseki/Dataset/data/resenjeMetadata> where{
+    ?Dataset <http://www.ftn.uns.ac.rs/rdf/examples/predicate/odluka> ?odluka .
+    ?Dataset <http://www.ftn.uns.ac.rs/rdf/examples/predicate/brojZalbe> ?brojZalbe .
+    ?Dataset <http://www.ftn.uns.ac.rs/rdf/examples/predicate/datumZalbe> ?datumZalbe .
+    ?Dataset <http://www.ftn.uns.ac.rs/rdf/examples/predicate/nazivOptuzenog> ?nazivOptuzenog .
+    ?Dataset <http://www.ftn.uns.ac.rs/rdf/examples/predicate/sedisteOptuzenog> ?sedisteOptuzenog .
+    ?Dataset <http://www.ftn.uns.ac.rs/rdf/examples/predicate/imePoverenika> ?imePoverenika .
+    FILTER(CONTAINS(UCASE(str(?brojZalbe)), UCASE("{{brojZalbe}}"))
+    && CONTAINS(UCASE(str(?odluka)), UCASE("{{odluka}}"))
+    && CONTAINS(UCASE(str(?datumZalbe)), UCASE("{{datumZalbe}}"))
+    && CONTAINS(UCASE(str(?nazivOptuzenog)), UCASE("{{nazivOptuzenog}}"))
+    && CONTAINS(UCASE(str(?sedisteOptuzenog)), UCASE("{{sedisteOptuzenog}}"))
+    && CONTAINS(UCASE(str(?imePoverenika)), UCASE("{{imePoverenika}}"))).
+}

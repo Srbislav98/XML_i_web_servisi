@@ -24,6 +24,7 @@ export class ResenjeCreateComponent implements OnInit {
     let specification = this.xonomyService.ResenjeSpecification;
     let xmlString = '<resenje xmlns="http://www.ftn.uns.ac.rs/resenja"'+
     ' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" '+
+    'xmlns:pred="http://www.ftn.uns.ac.rs/rdf/examples/predicate/" '+
     '> '+
     '<odluka about="http://www.ftn.uns.ac.rs/rdf/resenje" property="pred:odluka" datatype="xs:string"> </odluka>'+
     '<levo about="http://www.ftn.uns.ac.rs/rdf/resenje">'+
